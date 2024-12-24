@@ -100,71 +100,67 @@
    	<div class="home-content-table">	
 		   <div class="home-content-tablecell">
 		   	<div class="row">
-		   		<div class="col-twelve">		   			
+		   		<div class="col-twelve">   			
 			  		
-			  				<h3 class="animate-intro">We Are SACHIO.</h3>
-				  			<h1 class="animate-intro">
-								<span class="highlight">Prevent.</span> <br>
-								<span class="highlight">Promote.</span> <br>
-								<span class="highlight right-to-left">Protect.</span>
-							  </h1>
-							  
-							  <script>
-							  document.addEventListener('DOMContentLoaded', function() {
-								const words = document.querySelectorAll('.highlight');
-								
-								function animateWords(index = 0) {
-								  if (index < words.length) {
-									words[index].classList.add('visible');
-									setTimeout(() => animateWords(index + 1), 1800);
-								  } else {
-									// Wait 2 seconds before resetting
-									setTimeout(() => {
-									  words.forEach(word => {
-										word.classList.remove('visible');
-										word.classList.add('hidden');
-									  });
-									  // Wait for transition to complete before starting again
-									  setTimeout(() => {
-										words.forEach(word => word.classList.remove('hidden'));
-										animateWords();
-									  }, 800);
-									}, 2000);
-								  }
-								}
-							  
-								animateWords();
+					<h1 class="animate-intro">
+						<div id="intro-text">
+						  <span>Equipping </span>
+						  <span class="highlight-adolescents">Adolescents</span>
+						  <span> for Healthy Futures</span>
+						</div>
+						<span class="highlight hidden">Prevent.</span> <br>
+						<span class="highlight hidden">Promote.</span> <br>
+						<span class="highlight right-to-left hidden">Protect.</span>
+					  </h1>
+					  
+					  <script>
+					  document.addEventListener('DOMContentLoaded', function () {
+						const introText = document.getElementById('intro-text');
+						const words = document.querySelectorAll('.highlight');
+						const adolescentsHighlight = document.querySelector('.highlight-adolescents');
+					  
+						function animateIntroText() {
+						  introText.classList.add('visible');
+						  setTimeout(() => {
+							adolescentsHighlight.classList.add('underline');
+						  }, 800); // Delay to animate the underline
+						  setTimeout(() => {
+							introText.classList.remove('visible');
+							animateWords();
+						  }, 3000); // Total time for the intro text animation
+						}
+					  
+						function animateWords(index = 0) {
+						  if (index < words.length) {
+							words[index].classList.add('visible');
+							setTimeout(() => animateWords(index + 1), 1800);
+						  } else {
+							// Wait 2 seconds before resetting
+							setTimeout(() => {
+							  words.forEach(word => {
+								word.classList.remove('visible');
+								word.classList.add('hidden');
 							  });
-							  </script>
-				  			<div class="more animate-intro">
-				  				<a class="smoothscroll button stroke" href="#about">
-				  					Learn More
-				  				</a>
-				  			</div>							
+							  // Wait for transition to complete before restarting
+							  setTimeout(() => {
+								words.forEach(word => word.classList.remove('hidden'));
+								animateIntroText();
+							  }, 800);
+							}, 2000);
+						  }
+						}
+					  
+						animateIntroText();
+					  });
+					  </script>
+				  								
 
 			  		</div> <!-- end col-twelve --> 
 		   	</div> <!-- end row --> 
 		   </div> <!-- end home-content-tablecell --> 		   
 		</div> <!-- end home-content-table -->
 
-		<ul class="home-social-list">
-	      <li class="animate-intro">
-	        	<a href="#"><i class="fa fa-facebook-square"></i></a>
-	      </li>
-	      <li class="animate-intro">
-	        	<a href="#"><i class="fa fa-twitter"></i></a>
-	      </li>
-	      <li class="animate-intro">
-	        	<a href="#"><i class="fa fa-instagram"></i></a>
-	      </li>
-         <li class="animate-intro">
-           	<a href="#"><i class="fa fa-behance"></i></a>
-         </li>
-	      <li class="animate-intro">
-	        	<a href="#"><i class="fa fa-dribbble"></i></a>
-	      </li>	      
-	   </ul> <!-- end home-social-list -->	
-
+		
 		<div class="scrolldown">
 			<a href="#about" class="scroll-icon smoothscroll">		
 		   	Scroll Down		   	
