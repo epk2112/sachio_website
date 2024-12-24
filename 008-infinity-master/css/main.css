@@ -3002,20 +3002,4 @@ footer h4.h05::after {
   border-radius: 23px;
   margin-bottom: 5px;
   display: inline-block;
-  font-size: 55px;
-}
-
-
-@font-face {
-  font-family: 'Verveine';
-  src: url('../fonts/VerveineRegular.TTF') format('truetype');
-}
-
-.additional-text {
-  font-family: 'Verveine', sans-serif;
-  color: yellow;
-  text-decoration: underline;
-  text-decoration-color: #ed1e79;
-  margin-left: 10px;
-  font-size: 42px;
 }
