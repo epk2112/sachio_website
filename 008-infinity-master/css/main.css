@@ -3000,7 +3000,7 @@ footer h4.h05::after {
   opacity: 0;
   transform: translateY(50px);
   transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-  font-size: 34px;
+  font-size: 33px;
 }
 
 #intro-text.visible {
