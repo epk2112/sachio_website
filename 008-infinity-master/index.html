@@ -109,6 +109,22 @@
 								<span class="highlight">Protect.</span>
 							  </h1>
 
+							  <script>
+								document.addEventListener('DOMContentLoaded', function() {
+								  const words = document.querySelectorAll('.highlight');
+								  
+								  function showWord(index) {
+									if (index < words.length) {
+									  words[index].classList.add('visible');
+									  setTimeout(() => showWord(index + 1), 800); // Delay between words
+									}
+								  }
+								
+								  // Start animation
+								  showWord(0);
+								});
+								</script>
+
 				  			<div class="more animate-intro">
 				  				<a class="smoothscroll button stroke" href="#about">
 				  					Learn More
