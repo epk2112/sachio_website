@@ -113,14 +113,27 @@
 							  document.addEventListener('DOMContentLoaded', function() {
 								const words = document.querySelectorAll('.highlight');
 								
-								function showWord(index) {
+								function animateWords(index = 0) {
 								  if (index < words.length) {
 									words[index].classList.add('visible');
-									setTimeout(() => showWord(index + 1), 1800);
+									setTimeout(() => animateWords(index + 1), 1800);
+								  } else {
+									// Wait 2 seconds before resetting
+									setTimeout(() => {
+									  words.forEach(word => {
+										word.classList.remove('visible');
+										word.classList.add('hidden');
+									  });
+									  // Wait for transition to complete before starting again
+									  setTimeout(() => {
+										words.forEach(word => word.classList.remove('hidden'));
+										animateWords();
+									  }, 800);
+									}, 2000);
 								  }
 								}
 							  
-								showWord(0);
+								animateWords();
 							  });
 							  </script>
 				  			<div class="more animate-intro">

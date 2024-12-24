@@ -3015,3 +3015,12 @@ footer h4.h05::after {
   opacity: 1;
   transform: translateX(0);
 }
+
+.highlight.hidden {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+.highlight.right-to-left.hidden {
+  transform: translateX(50px);
+}
