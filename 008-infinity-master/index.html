@@ -106,25 +106,23 @@
 				  			<h1 class="animate-intro">
 								<span class="highlight">Prevent.</span> <br>
 								<span class="highlight">Promote.</span> <br>
-								<span class="highlight">Protect.</span>
+								<span class="highlight right-to-left">Protect.</span>
 							  </h1>
-
+							  
 							  <script>
-								document.addEventListener('DOMContentLoaded', function() {
-								  const words = document.querySelectorAll('.highlight');
-								  
-								  function showWord(index) {
-									if (index < words.length) {
-									  words[index].classList.add('visible');
-									  setTimeout(() => showWord(index + 1), 800); // Delay between words
-									}
-								  }
+							  document.addEventListener('DOMContentLoaded', function() {
+								const words = document.querySelectorAll('.highlight');
 								
-								  // Start animation
-								  showWord(0);
-								});
-								</script>
-
+								function showWord(index) {
+								  if (index < words.length) {
+									words[index].classList.add('visible');
+									setTimeout(() => showWord(index + 1), 1800);
+								  }
+								}
+							  
+								showWord(0);
+							  });
+							  </script>
 				  			<div class="more animate-intro">
 				  				<a class="smoothscroll button stroke" href="#about">
 				  					Learn More
