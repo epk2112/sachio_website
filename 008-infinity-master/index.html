@@ -52,7 +52,7 @@
 
 			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
 
-	   	<h3>Infinity.</h3>  
+	   	<h4>SACHIO</h4>  
 
 			<ul class="nav-list">
 				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
@@ -60,31 +60,26 @@
 				<li><a class="smoothscroll" href="#services" title="">Services</a></li>
 				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
 				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>						
-			</ul>	
-
-			<p class="sponsor-text">
-				Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">DreamHost</a>.
-				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
-				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
-			</p>			
-
+			</ul>
 			<ul class="header-social-list">
-	         <li>
-	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
-	         </li>
-	         <li>
-	         	<a href="#"><i class="fa fa-twitter"></i></a>
-	         </li>
-	         <li>
-	         	<a href="#"><i class="fa fa-instagram"></i></a>
-	         </li>
-            <li>
-            	<a href="#"><i class="fa fa-behance"></i></a>
-            </li>
-	         <li>
-	         	<a href="#"><i class="fa fa-dribbble"></i></a>
-	         </li>	         
-	      </ul>		
+				<li>
+					<a href="#"><i class="fa fa-facebook-square"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+				</li>
+			   <li>
+				   <a href="#"><i class="fa fa-behance"></i></a>
+			   </li>
+				<li>
+					<a href="#"><i class="fa fa-dribbble"></i></a>
+				</li>	         
+			 </ul>		
+
+			
 
 		</nav>  <!-- end #menu-nav-wrap -->
 
@@ -105,8 +100,13 @@
 						<div class="text-container">
 							<div id="intro-text">
 								<span>Equipping </span>
-								<span class="highlight-adolescents">Adolescents</span>
-								<span> for Healthy Futures</span>
+								<span class="custom-underline-wrapper">
+									<span class="highlight-adolescents">Adolescents</span>
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none" class="underline-svg">
+										<path d="M26.9,143.8c55.1-6.1,126-6.3,162.2-6.1c46.5,0.2,203.9,3.2,268.9,6.4" class="path-2"></path>
+									</svg>
+								</span>
+								<span> for Healthy Futures.</span>
 							</div>
 							<div class="highlights-container">
 								<div class="highlight hidden">Prevent.</div>
@@ -121,12 +121,20 @@
 					 document.addEventListener('DOMContentLoaded', function () {
     const introText = document.getElementById('intro-text');
     const words = document.querySelectorAll('.highlight');
-    const adolescentsHighlight = document.querySelector('.highlight-adolescents');
+    const paths = document.querySelectorAll('.underline-svg path');
+
+    function resetSVGAnimation() {
+        paths.forEach(path => {
+            path.style.animation = 'none';
+            path.offsetHeight; // Trigger reflow
+            path.style.animation = null;
+        });
+    }
 
     function animateIntroText() {
         introText.classList.add('visible');
         setTimeout(() => {
-            adolescentsHighlight.classList.add('underline');
+            resetSVGAnimation(); // Reset SVG animation
         }, 800);
         setTimeout(() => {
             introText.classList.remove('visible');
@@ -154,6 +162,7 @@
 
     animateIntroText();
 });
+
 					  </script>
 				  								 
 		   	</div> <!-- end row --> 
