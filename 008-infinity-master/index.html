@@ -100,73 +100,73 @@
    	<div class="home-content-table">	
 		   <div class="home-content-tablecell">
 		   	<div class="row">
-		   		<div class="col-twelve">   			
-			  		
+				<div class="col-twelve">
 					<h1 class="animate-intro">
-						<div id="intro-text">
-						  <span>Equipping </span>
-						  <span class="highlight-adolescents">Adolescents</span>
-						  <span> for Healthy Futures</span>
+						<div class="text-container">
+							<div id="intro-text">
+								<span>Equipping </span>
+								<span class="highlight-adolescents">Adolescents</span>
+								<span> for Healthy Futures</span>
+							</div>
+							<div class="highlights-container">
+								<div class="highlight hidden">Prevent.</div>
+								<div class="highlight hidden">Promote.</div>
+								<div class="highlight right-to-left hidden">Protect.</div>
+							</div>
 						</div>
-						<span class="highlight hidden">Prevent.</span> <br>
-						<span class="highlight hidden">Promote.</span> <br>
-						<span class="highlight right-to-left hidden">Protect.</span>
-					  </h1>
+					</h1>
+				</div>
 					  
 					  <script>
-					  document.addEventListener('DOMContentLoaded', function () {
-						const introText = document.getElementById('intro-text');
-						const words = document.querySelectorAll('.highlight');
-						const adolescentsHighlight = document.querySelector('.highlight-adolescents');
-					  
-						function animateIntroText() {
-						  introText.classList.add('visible');
-						  setTimeout(() => {
-							adolescentsHighlight.classList.add('underline');
-						  }, 800); // Delay to animate the underline
-						  setTimeout(() => {
-							introText.classList.remove('visible');
-							animateWords();
-						  }, 3000); // Total time for the intro text animation
-						}
-					  
-						function animateWords(index = 0) {
-						  if (index < words.length) {
-							words[index].classList.add('visible');
-							setTimeout(() => animateWords(index + 1), 1800);
-						  } else {
-							// Wait 2 seconds before resetting
-							setTimeout(() => {
-							  words.forEach(word => {
-								word.classList.remove('visible');
-								word.classList.add('hidden');
-							  });
-							  // Wait for transition to complete before restarting
-							  setTimeout(() => {
-								words.forEach(word => word.classList.remove('hidden'));
-								animateIntroText();
-							  }, 800);
-							}, 2000);
-						  }
-						}
-					  
-						animateIntroText();
-					  });
-					  </script>
-				  								
+					 document.addEventListener('DOMContentLoaded', function () {
+    const introText = document.getElementById('intro-text');
+    const words = document.querySelectorAll('.highlight');
+    const adolescentsHighlight = document.querySelector('.highlight-adolescents');
 
-			  		</div> <!-- end col-twelve --> 
+    function animateIntroText() {
+        introText.classList.add('visible');
+        setTimeout(() => {
+            adolescentsHighlight.classList.add('underline');
+        }, 800);
+        setTimeout(() => {
+            introText.classList.remove('visible');
+            animateWords();
+        }, 3000);
+    }
+
+    function animateWords(index = 0) {
+        if (index < words.length) {
+            words[index].classList.add('visible');
+            setTimeout(() => animateWords(index + 1), 1800);
+        } else {
+            setTimeout(() => {
+                words.forEach(word => {
+                    word.classList.remove('visible');
+                    word.classList.add('hidden');
+                });
+                setTimeout(() => {
+                    words.forEach(word => word.classList.remove('hidden'));
+                    animateIntroText();
+                }, 800);
+            }, 2000);
+        }
+    }
+
+    animateIntroText();
+});
+					  </script>
+				  								 
 		   	</div> <!-- end row --> 
 		   </div> <!-- end home-content-tablecell --> 		   
 		</div> <!-- end home-content-table -->
 
 		
-		<div class="scrolldown">
+		<!-- <div class="scrolldown">
 			<a href="#about" class="scroll-icon smoothscroll">		
 		   	Scroll Down		   	
 		   	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 			</a>
-		</div>			
+		</div>			 -->
    
    </section> <!-- end home -->
 

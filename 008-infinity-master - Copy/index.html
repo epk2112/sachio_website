@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Infinity</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">  
+   <link rel="stylesheet" href="css/main.css">  
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header> 
+
+   	<div class="header-logo">
+	      <a href="index.html">Infinity</a>
+	   </div> 
+
+		<a id="header-menu-trigger" href="#0">
+		 	<!-- <span class="header-menu-text">Menu</span> -->
+		  	<span class="header-menu-icon"></span>
+		</a> 
+
+		<nav id="menu-nav-wrap">
+
+			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
+
+	   	<h3>Infinity.</h3>  
+
+			<ul class="nav-list">
+				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+				<li><a class="smoothscroll" href="#about" title="">About</a></li>
+				<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
+				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>						
+			</ul>	
+
+			<p class="sponsor-text">
+				Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">DreamHost</a>.
+				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
+				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+			</p>			
+
+			<ul class="header-social-list">
+	         <li>
+	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-instagram"></i></a>
+	         </li>
+            <li>
+            	<a href="#"><i class="fa fa-behance"></i></a>
+            </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-dribbble"></i></a>
+	         </li>	         
+	      </ul>		
+
+		</nav>  <!-- end #menu-nav-wrap -->
+
+	</header> <!-- end header -->  
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home">
+
+   	<div class="overlay"></div>
+
+   	<div class="home-content-table">	
+		   <div class="home-content-tablecell">
+		   	<div class="row">
+		   		<div class="col-twelve">   			
+			  		
+					<h1 class="animate-intro">
+						<div id="intro-text">
+						  <span>Equipping </span>
+						  <span class="highlight-adolescents">Adolescents</span>
+						  <span> for Healthy Futures</span>
+						</div>
+						<span class="highlight hidden">Prevent.</span> <br>
+						<span class="highlight hidden">Promote.</span> <br>
+						<span class="highlight right-to-left hidden">Protect.</span>
+					  </h1>
+					  
+					  <script>
+					  document.addEventListener('DOMContentLoaded', function () {
+						const introText = document.getElementById('intro-text');
+						const words = document.querySelectorAll('.highlight');
+						const adolescentsHighlight = document.querySelector('.highlight-adolescents');
+					  
+						function animateIntroText() {
+						  introText.classList.add('visible');
+						  setTimeout(() => {
+							adolescentsHighlight.classList.add('underline');
+						  }, 800); // Delay to animate the underline
+						  setTimeout(() => {
+							introText.classList.remove('visible');
+							animateWords();
+						  }, 3000); // Total time for the intro text animation
+						}
+					  
+						function animateWords(index = 0) {
+						  if (index < words.length) {
+							words[index].classList.add('visible');
+							setTimeout(() => animateWords(index + 1), 1800);
+						  } else {
+							// Wait 2 seconds before resetting
+							setTimeout(() => {
+							  words.forEach(word => {
+								word.classList.remove('visible');
+								word.classList.add('hidden');
+							  });
+							  // Wait for transition to complete before restarting
+							  setTimeout(() => {
+								words.forEach(word => word.classList.remove('hidden'));
+								animateIntroText();
+							  }, 800);
+							}, 2000);
+						  }
+						}
+					  
+						animateIntroText();
+					  });
+					  </script>
+				  								
+
+			  		</div> <!-- end col-twelve --> 
+		   	</div> <!-- end row --> 
+		   </div> <!-- end home-content-tablecell --> 		   
+		</div> <!-- end home-content-table -->
+
+		
+		<div class="scrolldown">
+			<a href="#about" class="scroll-icon smoothscroll">		
+		   	Scroll Down		   	
+		   	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</a>
+		</div>			
+   
+   </section> <!-- end home -->
+
+
+   
+
+      <div id="go-top">
+		   <a class="smoothscroll" title="Back to Top" href="#top">
+		   	<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+		   </a>
+		</div>		
+   </footer>
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
