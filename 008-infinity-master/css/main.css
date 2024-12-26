@@ -1355,7 +1355,7 @@ header .header-logo a {
   font-size: 1.5rem;
   line-height: 1.6;
   padding: 3.6rem 3rem;
-  height: 100%;
+  height: auto;
   width: 240px;
   position: fixed;
   right: 0;
@@ -1378,7 +1378,7 @@ header .header-logo a {
   color: rgba(255, 255, 255, 0.5);
 }
 #menu-nav-wrap a:hover, #menu-nav-wrap a:focus, #menu-nav-wrap a:active {
-  color: white;
+  color: #29abe2;
 }
 #menu-nav-wrap h3 {
   color: white;
@@ -1408,7 +1408,7 @@ header .header-logo a {
 }
 #menu-nav-wrap .nav-list li a:hover, 
 #menu-nav-wrap .nav-list li a:focus {
-  color: white;
+  color: #29abe2;
 }
 #menu-nav-wrap .header-social-list {
   list-style: none;
@@ -1426,7 +1426,7 @@ header .header-logo a {
 }
 #menu-nav-wrap .header-social-list li a:hover, 
 #menu-nav-wrap .header-social-list li a:focus {
-  color: white;
+  color: #29abe2;
 }
 #menu-nav-wrap .header-social-list li:last-child {
   margin: 0;
