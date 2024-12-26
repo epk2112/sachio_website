@@ -3087,6 +3087,10 @@ footer h4.h05::after {
   transform: translateX(50px);
 }
 
+.highlight.top-to-bottom {
+  transform: translateY(-50px);
+}
+
 .highlight.visible {
   opacity: 1;
   transform: translateX(0);
@@ -3099,4 +3103,8 @@ footer h4.h05::after {
 
 .highlight.right-to-left.hidden {
   transform: translateX(50px);
+}
+
+.highlight.top-to-bottom.highlight.hidden {
+  transform: translateY(-50px);
 }
