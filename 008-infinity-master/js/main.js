@@ -190,11 +190,11 @@
 	var ssSmoothScroll = function() {
 
 		$('.smoothscroll').on('click', function (e) {
-			var target = this.hash,
-			$target    = $(target);
+			// var target = this.hash,
+			// $target    = $(target);
 	 	
-		 	e.preventDefault();
-		 	e.stopPropagation();	   	
+		 	// e.preventDefault();
+		 	// e.stopPropagation();	   	
 
 	    	$('html, body').stop().animate({
 	       	'scrollTop': $target.offset().top
