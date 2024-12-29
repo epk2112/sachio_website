@@ -1500,7 +1500,24 @@
 
 
 
-
+	<script>
+		function sendHeightToParent() {
+		   const height = Math.max(
+			  document.body.scrollHeight,
+			  document.body.offsetHeight,
+			  document.documentElement.clientHeight,
+			  document.documentElement.scrollHeight,
+			  document.documentElement.offsetHeight
+		   );
+	 
+		   // Send the height to the parent page
+		   window.parent.postMessage({ type: 'iframeHeight', height: height }, '*');
+		}
+	 
+		// Send the height when the page loads and when it resizes
+		window.addEventListener('load', sendHeightToParent);
+		window.addEventListener('resize', sendHeightToParent);
+	 </script>
 
 </body>
 <!-- Mirrored from www.kentplace.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Dec 2024 15:20:43 GMT -->

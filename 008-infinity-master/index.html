@@ -181,19 +181,32 @@
 
 
  <!-- kent place section -->
-   <section id="kent-place">
-      <div class="row">
-         <div class="col-twelve">
-            <!-- Using iframe with 100% width and fixed height -->
-            <iframe 
-               src="./kent_place/index.html" 
-               style="width: 100%; height: 800px; border: none; overflow: hidden; scrollbar-width: none; -ms-overflow-style: none;" 
-               title="Kent Place Content"
-               loading="lazy">
-            </iframe>
-         </div>
-      </div>
-   </section>
+ <section id="kent-place">
+	<div class="row">
+	   <div class="col-twelve">
+		  <iframe 
+			 id="kent-place-iframe"
+			 src="./kent_place/index.html" 
+			 style="width: 100%; border: none; overflow: hidden;" 
+			 title="Kent Place Content"
+			 loading="lazy">
+		  </iframe>
+	   </div>
+	</div>
+ </section>
+ 
+ <script>
+	function resizeIframe(event) {
+	   const iframe = document.getElementById('kent-place-iframe');
+	   if (iframe && event.data && event.data.type === 'iframeHeight') {
+		  // Set the iframe height based on the received message
+		  iframe.style.height = event.data.height + 'px';
+	   }
+	}
+ 
+	// Listen for messages from the iframe
+	window.addEventListener('message', resizeIframe);
+ </script>
 
 
 
