@@ -68,7 +68,7 @@
     font-size: 1.125rem;
     line-height: 1.389;
     font-weight: 700;
-    color: #004628
+    color: #001346
 }
 
 .fsAthleticsRosterList li>div.fsRosterName:last-child,.fsTitle:last-child,.fsVimeoTitle:last-child,.fsYoutubeTitle:last-child {
@@ -86,7 +86,7 @@
 }
 
 .fsAthleticsRosterList li>div.fsRosterName>a:focus,.fsAthleticsRosterList li>div.fsRosterName>a:hover,.fsTitle>a:focus,.fsTitle>a:hover,.fsVimeoTitle>a:focus,.fsVimeoTitle>a:hover,.fsYoutubeTitle>a:focus,.fsYoutubeTitle>a:hover {
-    color: #477258;
+    color: #476472;
     text-decoration: underline
 }
 
@@ -97,7 +97,7 @@ h1 {
     line-height: 4.625rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: #004628;
+    color: #f7931e;
     margin-bottom: 10px
 }
 
@@ -119,7 +119,7 @@ h2,h3 {
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: #004628;
+    color: #f7931e;
     margin-bottom: 20px
 }
 
@@ -176,9 +176,9 @@ hr {
 a {
     text-decoration: none;
     display: inline-block;
-    color: #004628;
+    color: #001346;
     font-weight: 700;
-    background-image: linear-gradient(0deg,#3bd23d 0,#3bd23d);
+    background-image: linear-gradient(0deg,#d2a03b 0,#d2a03b);
     background-position: 0 100%;
     background-size: calc(100% - 18px) 4px;
     background-size: 100% 4px;
@@ -187,7 +187,7 @@ a {
 }
 
 a:focus,a:hover {
-    color: #004628;
+    color: #001346;
     background-size: 100% 100%
 }
 
@@ -217,7 +217,7 @@ ol,ul {
 .fsAthleticsEvent.fsTable .fsElementTable th,.fsAthleticsRoster .fsElementTable th,table.fs_style_31 th {
     padding: 19px 20px;
     color: #fff;
-    background-color: #004628;
+    background-color: #001346;
     text-align: left;
     font-size: 1rem;
     line-height: 1.1875;
@@ -259,11 +259,11 @@ iframe {
 }
 
 .fs_style_32.fs_style_35 {
-    border: 1px solid #477258!important;
+    border: 1px solid #476472!important;
     margin: 0 0 10px;
     padding: 14px 29px;
     background: rgba(0,0,0,0);
-    color: #477258;
+    color: #476472;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -279,9 +279,9 @@ iframe {
 }
 
 .fs_style_32.fs_style_35.on,.fs_style_32.fs_style_35:focus,.fs_style_32.fs_style_35:hover,.fsStateSelected .fs_style_32.fs_style_35 {
-    background: #004628;
+    background: #001346;
     color: #fff;
-    border-color: #004628!important;
+    border-color: #001346!important;
     transition: all .3s
 }
 
@@ -295,10 +295,10 @@ p:last-child .fs_style_32.fs_style_35:last-child {
 }
 
 .fs_style_32.fs_style_36 {
-    border: 1px solid #004628!important;
+    border: 1px solid #001346!important;
     margin: 0 0 10px;
     padding: 14px 29px;
-    background: #004628;
+    background: #001346;
     color: #fff;
     cursor: pointer;
     text-align: center;
@@ -316,8 +316,8 @@ p:last-child .fs_style_32.fs_style_35:last-child {
 
 .fs_style_32.fs_style_36.on,.fs_style_32.fs_style_36:focus,.fs_style_32.fs_style_36:hover,.fsStateSelected .fs_style_32.fs_style_36 {
     background: rgba(0,0,0,0);
-    color: #477258;
-    border-color: #477258!important;
+    color: #476472;
+    border-color: #476472!important;
     transition: all .3s
 }
 
@@ -335,7 +335,7 @@ p:last-child .fs_style_32.fs_style_36:last-child {
     margin: 0 0 10px;
     padding: 14px 29px;
     background: #e4d478;
-    color: #004628;
+    color: #001346;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -352,8 +352,8 @@ p:last-child .fs_style_32.fs_style_36:last-child {
 
 .fs_style_32.fs_style_37.on,.fs_style_32.fs_style_37:focus,.fs_style_32.fs_style_37:hover,.fsStateSelected .fs_style_32.fs_style_37 {
     background: rgba(0,0,0,0);
-    color: #004628;
-    border-color: #477258!important;
+    color: #001346;
+    border-color: #476472!important;
     transition: all .3s
 }
 
@@ -367,11 +367,11 @@ p:last-child .fs_style_32.fs_style_37:last-child {
 }
 
 .fs_style_32.fs_style_38 {
-    border: 1px solid #3bd23d!important;
+    border: 1px solid #d2a03b!important;
     margin: 0 0 10px;
     padding: 14px 29px;
-    background: #3bd23d;
-    color: #004628;
+    background: #d2a03b;
+    color: #001346;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -388,8 +388,8 @@ p:last-child .fs_style_32.fs_style_37:last-child {
 
 .fs_style_32.fs_style_38.on,.fs_style_32.fs_style_38:focus,.fs_style_32.fs_style_38:hover,.fsStateSelected .fs_style_32.fs_style_38 {
     background: rgba(0,0,0,0);
-    color: #004628;
-    border-color: #477258!important;
+    color: #001346;
+    border-color: #476472!important;
     transition: all .3s
 }
 
@@ -403,11 +403,11 @@ p:last-child .fs_style_32.fs_style_38:last-child {
 }
 
 .green-bg .fs_style_32.fs_style_38 {
-    border: 1px solid #3bd23d!important;
+    border: 1px solid #d2a03b!important;
     margin: 0 0 10px;
     padding: 14px 29px;
-    background: #3bd23d;
-    color: #004628;
+    background: #d2a03b;
+    color: #001346;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -424,8 +424,8 @@ p:last-child .fs_style_32.fs_style_38:last-child {
 
 .fsStateSelected .green-bg .fs_style_32.fs_style_38,.green-bg .fs_style_32.fs_style_38.on,.green-bg .fs_style_32.fs_style_38:focus,.green-bg .fs_style_32.fs_style_38:hover {
     background: rgba(0,0,0,0);
-    color: #3bd23d;
-    border-color: #477258!important;
+    color: #d2a03b;
+    border-color: #476472!important;
     transition: all .3s
 }
 
@@ -460,8 +460,8 @@ p:last-child .green-bg .fs_style_32.fs_style_38:last-child {
 
 .fs_style_32.fs_style_39.on,.fs_style_32.fs_style_39:focus,.fs_style_32.fs_style_39:hover,.fsStateSelected .fs_style_32.fs_style_39 {
     background: rgba(0,0,0,0);
-    color: #004628;
-    border-color: #477258!important;
+    color: #001346;
+    border-color: #476472!important;
     transition: all .3s
 }
 
@@ -475,10 +475,10 @@ p:last-child .fs_style_32.fs_style_39:last-child {
 }
 
 .fs_style_32.fs_style_40 {
-    border: 1px solid #004628!important;
+    border: 1px solid #001346!important;
     margin: 0 0 10px;
     padding: 14px 29px;
-    background: #004628;
+    background: #001346;
     color: #fff;
     cursor: pointer;
     text-align: center;
@@ -495,9 +495,9 @@ p:last-child .fs_style_32.fs_style_39:last-child {
 }
 
 .fs_style_32.fs_style_40.on,.fs_style_32.fs_style_40:focus,.fs_style_32.fs_style_40:hover,.fsStateSelected .fs_style_32.fs_style_40 {
-    background: #3bd23d;
-    color: #004628;
-    border-color: #3bd23d!important;
+    background: #d2a03b;
+    color: #001346;
+    border-color: #d2a03b!important;
     transition: all .3s
 }
 
@@ -532,7 +532,7 @@ p:last-child .fs_style_32.fs_style_40:last-child {
 
 .fs_style_32.fs_style_41.on,.fs_style_32.fs_style_41:focus,.fs_style_32.fs_style_41:hover,.fsStateSelected .fs_style_32.fs_style_41 {
     background: #fff;
-    color: #477258;
+    color: #476472;
     border-color: #fff!important;
     transition: all .3s
 }
@@ -583,17 +583,17 @@ p:last-child .fs_style_32.fs_style_42:last-child {
 }
 
 .dark-bg {
-    background-color: #004628;
+    background-color: #001346;
     padding: 40px
 }
 
 .fs_style_33.fs_style_35 {
     display: inline-block;
-    border: 1px solid #477258;
+    border: 1px solid #476472;
     margin: 0 0 10px;
     padding: 29px 59px;
     background: rgba(0,0,0,0);
-    color: #477258;
+    color: #476472;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -608,9 +608,9 @@ p:last-child .fs_style_32.fs_style_42:last-child {
 }
 
 .fs_style_33.fs_style_35:focus,.fs_style_33.fs_style_35:hover {
-    background: #004628;
+    background: #001346;
     color: #fff;
-    border-color: #004628
+    border-color: #001346
 }
 
 .fs_style_33.fs_style_35.fs_style_34 {
@@ -634,10 +634,10 @@ p:last-child .fs_style_33.fs_style_35:last-child {
 
 .fs_style_33.fs_style_36 {
     display: inline-block;
-    border: 1px solid #004628;
+    border: 1px solid #001346;
     margin: 0 0 10px;
     padding: 29px 59px;
-    background: #004628;
+    background: #001346;
     color: #fff;
     cursor: pointer;
     text-align: center;
@@ -654,8 +654,8 @@ p:last-child .fs_style_33.fs_style_35:last-child {
 
 .fs_style_33.fs_style_36:focus,.fs_style_33.fs_style_36:hover {
     background: rgba(0,0,0,0);
-    color: #477258;
-    border-color: #477258
+    color: #476472;
+    border-color: #476472
 }
 
 .fs_style_33.fs_style_36.fs_style_34 {
@@ -683,7 +683,7 @@ p:last-child .fs_style_33.fs_style_36:last-child {
     margin: 0 0 10px;
     padding: 29px 59px;
     background: #e4d478;
-    color: #004628;
+    color: #001346;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -699,8 +699,8 @@ p:last-child .fs_style_33.fs_style_36:last-child {
 
 .fs_style_33.fs_style_37:focus,.fs_style_33.fs_style_37:hover {
     background: rgba(0,0,0,0);
-    color: #004628;
-    border-color: #477258
+    color: #001346;
+    border-color: #476472
 }
 
 .fs_style_33.fs_style_37.fs_style_34 {
@@ -724,11 +724,11 @@ p:last-child .fs_style_33.fs_style_37:last-child {
 
 .fs_style_33.fs_style_38 {
     display: inline-block;
-    border: 1px solid #3bd23d;
+    border: 1px solid #d2a03b;
     margin: 0 0 10px;
     padding: 29px 59px;
-    background: #3bd23d;
-    color: #004628;
+    background: #d2a03b;
+    color: #001346;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -744,8 +744,8 @@ p:last-child .fs_style_33.fs_style_37:last-child {
 
 .fs_style_33.fs_style_38:focus,.fs_style_33.fs_style_38:hover {
     background: rgba(0,0,0,0);
-    color: #004628;
-    border-color: #477258
+    color: #001346;
+    border-color: #476472
 }
 
 .fs_style_33.fs_style_38.fs_style_34 {
@@ -768,11 +768,11 @@ p:last-child .fs_style_33.fs_style_38:last-child {
 }
 
 .green-bg .fs_style_33.fs_style_38 {
-    border: 1px solid #3bd23d!important;
+    border: 1px solid #d2a03b!important;
     margin: 0 0 10px;
     padding: 14px 29px;
-    background: #3bd23d;
-    color: #004628;
+    background: #d2a03b;
+    color: #001346;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -789,8 +789,8 @@ p:last-child .fs_style_33.fs_style_38:last-child {
 
 .fsStateSelected .green-bg .fs_style_33.fs_style_38,.green-bg .fs_style_33.fs_style_38.on,.green-bg .fs_style_33.fs_style_38:focus,.green-bg .fs_style_33.fs_style_38:hover {
     background: rgba(0,0,0,0);
-    color: #3bd23d;
-    border-color: #477258!important;
+    color: #d2a03b;
+    border-color: #476472!important;
     transition: all .3s
 }
 
@@ -825,8 +825,8 @@ p:last-child .green-bg .fs_style_33.fs_style_38:last-child {
 
 .fs_style_33.fs_style_39:focus,.fs_style_33.fs_style_39:hover {
     background: rgba(0,0,0,0);
-    color: #004628;
-    border-color: #477258
+    color: #001346;
+    border-color: #476472
 }
 
 .fs_style_33.fs_style_39.fs_style_34 {
@@ -850,10 +850,10 @@ p:last-child .fs_style_33.fs_style_39:last-child {
 
 .fs_style_33.fs_style_40 {
     display: inline-block;
-    border: 1px solid #004628;
+    border: 1px solid #001346;
     margin: 0 0 10px;
     padding: 29px 59px;
-    background: #004628;
+    background: #001346;
     color: #fff;
     cursor: pointer;
     text-align: center;
@@ -869,9 +869,9 @@ p:last-child .fs_style_33.fs_style_39:last-child {
 }
 
 .fs_style_33.fs_style_40:focus,.fs_style_33.fs_style_40:hover {
-    background: #3bd23d;
-    color: #004628;
-    border-color: #3bd23d
+    background: #d2a03b;
+    color: #001346;
+    border-color: #d2a03b
 }
 
 .fs_style_33.fs_style_40.fs_style_34 {
@@ -915,7 +915,7 @@ p:last-child .fs_style_33.fs_style_40:last-child {
 
 .fs_style_33.fs_style_41:focus,.fs_style_33.fs_style_41:hover {
     background: #fff;
-    color: #477258;
+    color: #476472;
     border-color: #fff
 }
 
@@ -1005,7 +1005,7 @@ p:last-child .fs_style_33.fs_style_42:last-child {
 }
 
 .fs_style_43:before,.fs_style_44:before {
-    color: #477258;
+    color: #476472;
     position: absolute;
     left: 23px;
     font-size: 1rem;
@@ -1039,11 +1039,11 @@ p:last-child .fs_style_43:last-child,p:last-child .fs_style_44:last-child {
 }
 
 .fsStyleDefaultButton {
-    border: 1px solid #477258!important;
+    border: 1px solid #476472!important;
     margin: 0 0 10px;
     padding: 14px 29px;
     background: rgba(0,0,0,0);
-    color: #477258;
+    color: #476472;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -1059,9 +1059,9 @@ p:last-child .fs_style_43:last-child,p:last-child .fs_style_44:last-child {
 }
 
 .fsStateSelected .fsStyleDefaultButton,.fsStyleDefaultButton.on,.fsStyleDefaultButton:focus,.fsStyleDefaultButton:hover {
-    background: #004628;
+    background: #001346;
     color: #fff;
-    border-color: #004628!important;
+    border-color: #001346!important;
     transition: all .3s
 }
 
@@ -1093,10 +1093,10 @@ p:last-child .fsStyleDefaultButton:last-child {
 }
 
 .juicer-feed .j-paginate {
-    border: 1px solid #477258!important;
+    border: 1px solid #476472!important;
     padding: 14px 29px;
     background: rgba(0,0,0,0);
-    color: #477258;
+    color: #476472;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -1114,9 +1114,9 @@ p:last-child .fsStyleDefaultButton:last-child {
 }
 
 .fsStateSelected .juicer-feed .j-paginate,.juicer-feed .j-paginate.on,.juicer-feed .j-paginate:focus,.juicer-feed .j-paginate:hover {
-    background: #004628;
+    background: #001346;
     color: #fff;
-    border-color: #004628!important;
+    border-color: #001346!important;
     transition: all .3s
 }
 
@@ -1130,11 +1130,11 @@ p:last-child .juicer-feed .j-paginate:last-child {
 }
 
 .fsStyleUpdateButton {
-    border: 1px solid #477258!important;
+    border: 1px solid #476472!important;
     margin: 0 0 10px;
     padding: 14px 29px;
     background: rgba(0,0,0,0);
-    color: #477258;
+    color: #476472;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -1150,9 +1150,9 @@ p:last-child .juicer-feed .j-paginate:last-child {
 }
 
 .fsStateSelected .fsStyleUpdateButton,.fsStyleUpdateButton.on,.fsStyleUpdateButton:focus,.fsStyleUpdateButton:hover {
-    background: #004628;
+    background: #001346;
     color: #fff;
-    border-color: #004628!important;
+    border-color: #001346!important;
     transition: all .3s
 }
 
@@ -1218,7 +1218,7 @@ p:last-child .fsStyleUpdateButton:last-child {
 }
 
 .fsListNav .fsStyleDefaultList .fsListItem a:focus,.fsListNav .fsStyleDefaultList .fsListItem a:hover {
-    color: #004628;
+    color: #001346;
     background: rgba(0,0,0,0)
 }
 
@@ -1357,7 +1357,7 @@ p:last-child .fsStyleUpdateButton:last-child {
 .fs_style_29 {
     font-size: 1.375rem;
     line-height: 1.4091;
-    color: #004628;
+    color: #001346;
     font-family: Lato,sans-serif
 }
 
@@ -1436,7 +1436,7 @@ cite {
     font-style: normal;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    color: #004628;
+    color: #001346;
     font-size: 1.25rem;
     line-height: .95
 }
@@ -1454,7 +1454,7 @@ cite:before {
 
 .fs_style_30 {
     display: block;
-    box-shadow: inset 10px 0 0 #3bd23d;
+    box-shadow: inset 10px 0 0 #d2a03b;
     padding: 15px 30px;
     margin: 50px 0;
     font-size: 1.375rem;
@@ -1506,11 +1506,11 @@ body:not(.fsComposeMode) p:first-child .fs_style_30 {
 }
 
 .card.green-border>header {
-    border-bottom: 20px solid #004628
+    border-bottom: 20px solid #001346
 }
 
 .card.lime-border>header {
-    border-bottom: 20px solid #3bd23d
+    border-bottom: 20px solid #d2a03b
 }
 
 .card.gold-border>header {
@@ -1532,8 +1532,8 @@ body:not(.fsComposeMode) p:first-child .fs_style_30 {
 }
 
 .card.green-bg {
-    border-color: #004628;
-    background: #004628;
+    border-color: #001346;
+    background: #001346;
     color: #fff
 }
 
@@ -1542,13 +1542,13 @@ body:not(.fsComposeMode) p:first-child .fs_style_30 {
 }
 
 .card.green-bg a:not([class]):focus,.card.green-bg a:not([class]):hover {
-    color: #004628
+    color: #001346
 }
 
 .card.lime-bg {
-    border-color: #3bd23d;
-    background-color: #3bd23d;
-    color: #004628
+    border-color: #d2a03b;
+    background-color: #d2a03b;
+    color: #001346
 }
 
 .card.lime-bg a:not([class]) {
@@ -1556,8 +1556,8 @@ body:not(.fsComposeMode) p:first-child .fs_style_30 {
 }
 
 .card.lime-bg a:not([class]):focus,.card.lime-bg a:not([class]):hover {
-    color: #3bd23d;
-    background-image: linear-gradient(0deg,#004628 0,#004628)
+    color: #d2a03b;
+    background-image: linear-gradient(0deg,#001346 0,#001346)
 }
 
 .card.dark-gray-bg,.card.dark-grey-bg {
@@ -1570,11 +1570,11 @@ body:not(.fsComposeMode) p:first-child .fs_style_30 {
 }
 
 .card.dark-gray-bg a:not([class]):focus,.card.dark-gray-bg a:not([class]):hover,.card.dark-grey-bg a:not([class]):focus,.card.dark-grey-bg a:not([class]):hover {
-    color: #004628
+    color: #001346
 }
 
 .card.outline {
-    border-color: #004628;
+    border-color: #001346;
     color: #131313
 }
 
@@ -1604,11 +1604,11 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .fsResourceElement.image-border.lime {
-    border-right-color: #3bd23d
+    border-right-color: #d2a03b
 }
 
 .fsResourceElement.image-border.green {
-    border-right-color: #004628
+    border-right-color: #001346
 }
 
 .fsResourceElement.image-border.gold {
@@ -1626,7 +1626,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
     line-height: 4.625rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: #004628;
+    color: #001346;
     margin-bottom: 10px
 }
 
@@ -1649,7 +1649,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .fsNavigation a,.fsNavigation li.fsNavCurrentPage>a,.fsNavigation li.fsNavCurrentPageAncestor>a {
-    color: #004628;
+    color: #001346;
     background: rgba(0,0,0,0)
 }
 
@@ -1659,7 +1659,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .fsNavigation a:focus,.fsNavigation a:hover {
-    color: #004628;
+    color: #001346;
     background: rgba(0,0,0,0)
 }
 
@@ -1731,7 +1731,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .fsBreadcrumb ul a:focus,.fsBreadcrumb ul a:hover {
-    color: #004628;
+    color: #001346;
     text-decoration: underline
 }
 
@@ -1803,7 +1803,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-tier {
-    background-color: #004628;
+    background-color: #001346;
     display: flex
 }
 
@@ -1885,14 +1885,14 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-tier ul li.fsNavCurrentPage>a {
-    color: #3bd23d;
+    color: #d2a03b;
     background: rgba(0,0,0,0);
     border-color: #fff;
     font-weight: 700
 }
 
 .nav-tier ul li.fsNavCurrentPage>a:focus,.nav-tier ul li.fsNavCurrentPage>a:hover {
-    color: #004628;
+    color: #001346;
     background: #fff;
     text-decoration: none
 }
@@ -1902,14 +1902,14 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-tier ul li.fsNavCurrentPageAncestor>a {
-    color: #3bd23d;
+    color: #d2a03b;
     background: rgba(0,0,0,0);
     border-color: #fff;
     font-weight: 700
 }
 
 .nav-tier ul li.fsNavCurrentPageAncestor>a:focus,.nav-tier ul li.fsNavCurrentPageAncestor>a:hover {
-    color: #004628;
+    color: #001346;
     background: #fff;
     text-decoration: none
 }
@@ -1922,7 +1922,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
     display: block;
     position: relative;
     background-color: #eee;
-    color: #004628;
+    color: #001346;
     transition: .3s;
     cursor: pointer
 }
@@ -1936,7 +1936,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-sub>header:focus-within,.nav-sub>header:hover {
-    background-color: #004628;
+    background-color: #001346;
     color: #fff
 }
 
@@ -2001,22 +2001,22 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-sub>.fsElementContent ul li a:focus,.nav-sub>.fsElementContent ul li a:hover {
-    color: #004628;
+    color: #001346;
     background: rgba(0,0,0,0);
     text-decoration: underline
 }
 
 .nav-sub>.fsElementContent ul li.fsNavCurrentPage:before {
-    background: #3bd23d
+    background: #d2a03b
 }
 
 .nav-sub>.fsElementContent ul li.fsNavCurrentPage>a {
-    color: #004628;
+    color: #001346;
     background: rgba(0,0,0,0)
 }
 
 .nav-sub>.fsElementContent ul li.fsNavCurrentPage>a:focus,.nav-sub>.fsElementContent ul li.fsNavCurrentPage>a:hover {
-    color: #477258;
+    color: #476472;
     background: rgba(0,0,0,0)
 }
 
@@ -2025,7 +2025,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-sub>.fsElementContent ul li.fsNavCurrentPageAncestor:before {
-    background: #3bd23d
+    background: #d2a03b
 }
 
 .nav-sub>.fsElementContent ul li.fsNavCurrentPageAncestor>a {
@@ -2034,20 +2034,20 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-sub>.fsElementContent ul li.fsNavCurrentPageAncestor>a:focus,.nav-sub>.fsElementContent ul li.fsNavCurrentPageAncestor>a:hover {
-    color: #004628;
+    color: #001346;
     background: rgba(0,0,0,0)
 }
 
 .nav-sub>.fsElementContent ul li.active-subnav:before {
-    background: #3bd23d
+    background: #d2a03b
 }
 
 .nav-sub>.fsElementContent ul li.active-subnav>a {
-    color: #004628
+    color: #001346
 }
 
 .nav-sub>.fsElementContent ul li.active-subnav>a:focus,.nav-sub>.fsElementContent ul li.active-subnav>a:hover {
-    color: #477258
+    color: #476472
 }
 
 .nav-sub>.fsElementContent ul li.active-subnav>.sublevel-toggle:before {
@@ -2079,7 +2079,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
     font-size: .6875rem;
     line-height: 1;
     padding: 5px;
-    color: #004628;
+    color: #001346;
     transition: color .3s
 }
 
@@ -2126,7 +2126,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-sub>.fsElementContent .fsNavLevel1>li.fsNavCurrentPage>a:focus,.nav-sub>.fsElementContent .fsNavLevel1>li.fsNavCurrentPage>a:hover,.nav-sub>.fsElementContent .fsNavLevel1>li.fsNavCurrentPageAncestor>a:focus,.nav-sub>.fsElementContent .fsNavLevel1>li.fsNavCurrentPageAncestor>a:hover {
-    background-color: #004628;
+    background-color: #001346;
     color: #fff
 }
 
@@ -2154,7 +2154,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-sub>.fsElementContent .fsNavLevel1>li>a:focus,.nav-sub>.fsElementContent .fsNavLevel1>li>a:hover {
-    background-color: #004628;
+    background-color: #001346;
     color: #fff;
     text-decoration: none
 }
@@ -2173,7 +2173,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-sub.active-nav>header {
-    color: #004628;
+    color: #001346;
     background-color: #eee
 }
 
@@ -2251,7 +2251,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-main .fsNavLevel1>li.active>a,.nav-main .fsNavLevel1>li.menu-item-open>a {
-    color: #004628;
+    color: #001346;
     padding-left: 53px
 }
 
@@ -2265,7 +2265,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-main .fsNavLevel1>li>a {
-    color: #004628;
+    color: #001346;
     padding: 0;
     margin: 0;
     text-transform: uppercase;
@@ -2278,7 +2278,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-main .fsNavLevel1>li>a:focus {
-    color: #004628;
+    color: #001346;
     padding-left: 53px
 }
 
@@ -2294,7 +2294,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
     left: 0;
     width: 0;
     height: 8px;
-    background-color: #3bd23d;
+    background-color: #d2a03b;
     transition: width .5s
 }
 
@@ -2344,7 +2344,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 }
 
 .nav-main .fsNavLevel2 li[class*=fsNavCurrentPage]>a,.nav-main .fsNavLevel2 li a:focus,.nav-main .fsNavLevel2 li a:hover {
-    color: #004628;
+    color: #001346;
     background: rgba(0,0,0,0);
     font-weight: 700
 }
@@ -2407,7 +2407,7 @@ body.mobile-news-open #fsMenu .news-and-events-mobile>.fsElementContent {
 
 html {
     font-family: Libre Franklin,sans-serif;
-    background: #004628;
+    background: #001346;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
@@ -2851,7 +2851,7 @@ body.fsComposeMode #fsPageWrapper {
     right: 20px;
     font-size: .6875rem;
     line-height: 1;
-    color: #004628
+    color: #001346
 }
 
 .fsConstituentSearchForm>label .department-wrapper select {
@@ -2898,10 +2898,10 @@ body.fsComposeMode #fsPageWrapper {
     padding-top: 16px;
     padding-bottom: 15px;
     width: 100%;
-    background-color: #004628;
+    background-color: #001346;
     color: #fff;
     text-transform: none;
-    border-color: #004628;
+    border-color: #001346;
     font-size: 1.125rem;
     line-height: 1.834;
     max-width: unset
@@ -2909,7 +2909,7 @@ body.fsComposeMode #fsPageWrapper {
 
 .fsConstituentSearchForm [type*=submit]:focus,.fsConstituentSearchForm [type*=submit]:hover {
     background-color: rgba(0,0,0,0);
-    color: #004628
+    color: #001346
 }
 
 @media (min-width: 600px) {
@@ -2935,14 +2935,14 @@ body.fsComposeMode #fsPageWrapper {
     height: 52px;
     top: 38px;
     right: 26px;
-    border: 2px solid #004628;
-    color: #004628;
+    border: 2px solid #001346;
+    color: #001346;
     border-radius: 100%;
     transition: all .3s
 }
 
 .fsConstituent.fsDialog .fsDialogCloseButton:focus,.fsConstituent.fsDialog .fsDialogCloseButton:hover {
-    background: #004628;
+    background: #001346;
     color: #fff
 }
 
@@ -3107,7 +3107,7 @@ body.fsComposeMode #fsPageWrapper {
 }
 
 .fsConstituent.fsDialog .fsEmail a:focus,.fsConstituent.fsDialog .fsEmail a:hover {
-    color: #004628;
+    color: #001346;
     text-decoration: underline
 }
 
@@ -3119,7 +3119,7 @@ body.fsComposeMode #fsPageWrapper {
     speak: none;
     font-size: .875rem;
     line-height: 1;
-    color: #004628;
+    color: #001346;
     margin-right: 19px
 }
 
@@ -3147,7 +3147,7 @@ body.fsComposeMode #fsPageWrapper {
     speak: none;
     font-size: 1.375rem;
     line-height: 1;
-    color: #004628;
+    color: #001346;
     margin-right: 18px;
     overflow: hidden
 }
@@ -3162,7 +3162,7 @@ body.fsComposeMode #fsPageWrapper {
 }
 
 .fsConstituent.fsDialog .fsPhone a:focus,.fsConstituent.fsDialog .fsPhone a:hover {
-    color: #004628;
+    color: #001346;
     text-decoration: underline
 }
 
@@ -3181,11 +3181,11 @@ body.fsComposeMode #fsPageWrapper {
 }
 
 .fsConstituent.fsDialog .fsCustom1 .fsProfileSectionFieldValue a:not([class]),.fsConstituent.fsDialog .fsCustom2 .fsProfileSectionFieldValue a:not([class]) {
-    color: #004628
+    color: #001346
 }
 
 .fsConstituent.fsDialog .fsProfileSectionFieldName {
-    color: #004628;
+    color: #001346;
     font-size: 2.125rem;
     line-height: 1.5295;
     font-family: 'Montserrat', sans-serif;
@@ -3240,7 +3240,7 @@ body.fsComposeMode #fsPageWrapper {
 }
 
 .fsAccordion .fsPanel>header h2:focus-within,.fsAccordion .fsPanel>header h2:hover,.fsTabs .fsPanel>header h2:focus-within,.fsTabs .fsPanel>header h2:hover {
-    color: #004628;
+    color: #001346;
     background-size: 100% 100%
 }
 
@@ -3266,7 +3266,7 @@ body.fsComposeMode #fsPageWrapper {
 
 .fsAccordion .fsPanel.fsStateOpen>header h2,.fsTabs .fsPanel.fsStateOpen>header h2 {
     background-size: 100% 100%;
-    color: #004628
+    color: #001346
 }
 
 .fsAccordion .fsPanel.fsStateOpen>header h2:before,.fsTabs .fsPanel.fsStateOpen>header h2:before {
@@ -3275,7 +3275,7 @@ body.fsComposeMode #fsPageWrapper {
 
 .fsAccordion .fsPanel.fsStateOpen>header h2:after,.fsAccordion .fsPanel.fsStateOpen>header h2:before,.fsTabs .fsPanel.fsStateOpen>header h2:after,.fsTabs .fsPanel.fsStateOpen>header h2:before {
     border-color: rgba(0,0,0,0)!important;
-    color: #004628!important
+    color: #001346!important
 }
 
 .fsPanelIconAfter.fsAccordion .fsPanel>header h2:after,.fsPanelIconAfter.fsTabs .fsPanel>header h2:after,.fsPanelIconBefore.fsAccordion .fsPanel>header h2:before,.fsPanelIconBefore.fsTabs .fsPanel>header h2:before {
@@ -3323,7 +3323,7 @@ body.fsComposeMode #fsPageWrapper {
 }
 
 .fsPanelIconBefore.fsAccordion .fsPanel.fsStateOpen>header h2:before,.fsPanelIconBefore.fsTabs .fsPanel.fsStateOpen>header h2:before {
-    border-left-color: #3bd23d
+    border-left-color: #d2a03b
 }
 
 .fsPanelIconBefore.fsAccordion .fsPanel>header h2,.fsPanelIconBefore.fsTabs .fsPanel>header h2 {
@@ -3337,11 +3337,11 @@ body.fsComposeMode #fsPageWrapper {
 }
 
 .fsPanelIconBefore.fsAccordion .fsPanel>header h2:focus-within:before,.fsPanelIconBefore.fsAccordion .fsPanel>header h2:hover:before,.fsPanelIconBefore.fsTabs .fsPanel>header h2:focus-within:before,.fsPanelIconBefore.fsTabs .fsPanel>header h2:hover:before {
-    border-left-color: #3bd23d
+    border-left-color: #d2a03b
 }
 
 .fsPanelIconAfter.fsAccordion .fsPanel.fsStateOpen>header h2:after,.fsPanelIconAfter.fsTabs .fsPanel.fsStateOpen>header h2:after {
-    border-right-color: #3bd23d
+    border-right-color: #d2a03b
 }
 
 .fsPanelIconAfter.fsAccordion .fsPanel>header h2,.fsPanelIconAfter.fsTabs .fsPanel>header h2 {
@@ -3359,7 +3359,7 @@ body.fsComposeMode #fsPageWrapper {
 }
 
 .fsPanelIconAfter.fsAccordion .fsPanel>header h2:focus-within:after,.fsPanelIconAfter.fsAccordion .fsPanel>header h2:hover:after,.fsPanelIconAfter.fsTabs .fsPanel>header h2:focus-within:after,.fsPanelIconAfter.fsTabs .fsPanel>header h2:hover:after {
-    border-right-color: #3bd23d
+    border-right-color: #d2a03b
 }
 
 .fsAccordion:not(.fsPanelIconBefore):not(.fsPanelIconAfter) .fsPanel>header h2,.fsTabs:not(.fsPanelIconBefore):not(.fsPanelIconAfter) .fsPanel>header h2 {
@@ -3595,7 +3595,7 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
     line-height: 2.25rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: #004628;
+    color: #001346;
     margin-bottom: 20px
 }
 
@@ -3822,7 +3822,7 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
     transform: translateX(-50%);
     width: 43px;
     height: 2px;
-    background-color: #3bd23d
+    background-color: #d2a03b
 }
 
 .fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) .fsDate>span.fsDay,.fsCalendar .fsDate>span.fsDay {
@@ -3886,7 +3886,7 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
     left: 0;
     font-size: .75rem;
     line-height: 1;
-    color: #3bd23d
+    color: #d2a03b
 }
 
 .fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsAllDay+.fsAthleticsEventType,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsAllDay+.fsDescription,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsAllDay+.fsNotes,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsAthleticsLocations+.fsAthleticsEventType,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsAthleticsLocations+.fsDescription,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsAthleticsLocations+.fsNotes,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsLocation+.fsAthleticsEventType,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsLocation+.fsDescription,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsLocation+.fsNotes,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsTime+.fsAthleticsEventType,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsTime+.fsDescription,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsTime+.fsNotes,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsTimeRange+.fsAthleticsEventType,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsTimeRange+.fsDescription,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsTimeRange+.fsNotes,.fsCalendar article .fsAllDay+.fsAthleticsEventType,.fsCalendar article .fsAllDay+.fsDescription,.fsCalendar article .fsAllDay+.fsNotes,.fsCalendar article .fsAthleticsLocations+.fsAthleticsEventType,.fsCalendar article .fsAthleticsLocations+.fsDescription,.fsCalendar article .fsAthleticsLocations+.fsNotes,.fsCalendar article .fsLocation+.fsAthleticsEventType,.fsCalendar article .fsLocation+.fsDescription,.fsCalendar article .fsLocation+.fsNotes,.fsCalendar article .fsTime+.fsAthleticsEventType,.fsCalendar article .fsTime+.fsDescription,.fsCalendar article .fsTime+.fsNotes,.fsCalendar article .fsTimeRange+.fsAthleticsEventType,.fsCalendar article .fsTimeRange+.fsDescription,.fsCalendar article .fsTimeRange+.fsNotes {
@@ -3909,7 +3909,7 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
     font-size: .8125rem;
     line-height: 1.3077;
     margin-bottom: 10px;
-    color: #477258
+    color: #476472
 }
 
 .fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsAthleticsEventType:last-child,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsDescription:last-child,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsNotes:last-child,.fsCalendar article .fsAthleticsEventType:last-child,.fsCalendar article .fsDescription:last-child,.fsCalendar article .fsNotes:last-child {
@@ -3917,7 +3917,7 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
 }
 
 .fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsDescription,.fsCalendar article .fsDescription {
-    color: #004628
+    color: #001346
 }
 
 .fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsNotes+hr,.fsCalendar article .fsNotes+hr {
@@ -3934,7 +3934,7 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
 }
 
 .fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsReadMoreLink:focus,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsReadMoreLink:hover,.fsCalendar article .fsReadMoreLink:focus,.fsCalendar article .fsReadMoreLink:hover {
-    color: #004628;
+    color: #001346;
     text-decoration: underline
 }
 
@@ -3943,10 +3943,10 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
 
 
 .scroll-up {
-    border: 1px solid #477258!important;
+    border: 1px solid #476472!important;
     padding: 14px 29px;
     background: rgba(0,0,0,0);
-    color: #477258;
+    color: #476472;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -3964,9 +3964,9 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
 }
 
 .fsStateSelected .scroll-up,.scroll-up.on,.scroll-up:focus,.scroll-up:hover {
-    background: #004628;
+    background: #001346;
     color: #fff;
-    border-color: #004628!important;
+    border-color: #001346!important;
     transition: all .3s
 }
 
@@ -4011,7 +4011,7 @@ p:last-child .scroll-up:last-child {
 
 
 .fsPostElement article .fsReadMoreLink:focus,.fsPostElement article .fsReadMoreLink:hover {
-    color: #004628;
+    color: #001346;
     text-decoration: underline
 }
 
@@ -4156,11 +4156,11 @@ p:last-child .scroll-up:last-child {
 }
 
 .vimeo_view_link a {
-    border: 1px solid #477258!important;
+    border: 1px solid #476472!important;
     margin: 0 0 10px;
     padding: 14px 29px;
     background: rgba(0,0,0,0);
-    color: #477258;
+    color: #476472;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -4176,9 +4176,9 @@ p:last-child .scroll-up:last-child {
 }
 
 .fsStateSelected .vimeo_view_link a,.vimeo_view_link a.on,.vimeo_view_link a:focus,.vimeo_view_link a:hover {
-    background: #004628;
+    background: #001346;
     color: #fff;
-    border-color: #004628!important;
+    border-color: #001346!important;
     transition: all .3s
 }
 
@@ -4248,11 +4248,11 @@ p:last-child .vimeo_view_link a:last-child {
 }
 
 .Youtube_view_link a {
-    border: 1px solid #477258!important;
+    border: 1px solid #476472!important;
     margin: 0 0 10px;
     padding: 14px 29px;
     background: rgba(0,0,0,0);
-    color: #477258;
+    color: #476472;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -4268,9 +4268,9 @@ p:last-child .vimeo_view_link a:last-child {
 }
 
 .fsStateSelected .Youtube_view_link a,.Youtube_view_link a.on,.Youtube_view_link a:focus,.Youtube_view_link a:hover {
-    background: #004628;
+    background: #001346;
     color: #fff;
-    border-color: #004628!important;
+    border-color: #001346!important;
     transition: all .3s
 }
 
@@ -4329,7 +4329,7 @@ p:last-child .Youtube_view_link a:last-child {
     left: -1px;
     width: calc(100% + 2px);
     height: 0;
-    background-color: #3bd23d;
+    background-color: #d2a03b;
     transition: height .5s
 }
 
@@ -4339,7 +4339,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .fsTabs .fsTabsNav li a:focus,.fsTabs .fsTabsNav li a:hover {
     background: #f8f8f8;
-    color: #004628;
+    color: #001346;
     border-color: #e5e5e5
 }
 
@@ -4353,7 +4353,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .fsTabs .fsTabsNav li.fsStateSelected a {
     background: rgba(0,0,0,0);
-    color: #004628;
+    color: #001346;
     border-color: rgba(0,0,0,0)
 }
 
@@ -4465,7 +4465,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .fsMiniGrid .fsCalendarEventGrid .fsCalendarDaybox:hover {
     opacity: 1;
-    background: #004628!important;
+    background: #001346!important;
     color: #fff!important;
     transition: .3s
 }
@@ -4494,7 +4494,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .fsMiniGrid .fsCalendarEventGrid .fsCalendarDaybox.fsCalendarToday {
-    background: #004628;
+    background: #001346;
     color: #fff
 }
 
@@ -4515,7 +4515,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .module {
-    background: #004628
+    background: #001346
 }
 
 @media (min-width: 1000px) {
@@ -5303,7 +5303,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values.in-view:before {
-    background: #3bd23d
+    background: #ffffff
 }
 
 .home .kent-values.in-view .mobile-posts {
@@ -5405,7 +5405,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .kent-values>header .fsElementHeaderContent {
     margin: 0;
-    color: #004628;
+    color: #f7931e;
     font-size: 2.0625rem;
     line-height: .87879;
     text-transform: uppercase;
@@ -5448,7 +5448,7 @@ p:last-child .Youtube_view_link a:last-child {
         position: absolute;
         bottom: -80px;
         left: -16px;
-        color: #3bd23d;
+        color: #d2a03b;
         font-size: 21.875rem;
         line-height: 1;
         font-family: 'Montserrat', sans-serif;
@@ -5574,6 +5574,10 @@ p:last-child .Youtube_view_link a:last-child {
     margin-top: 32px
 }
 
+
+
+
+/* 4 things post backgroud color */
 .home .kent-values .fsPostElement article:before {
     content: "";
     position: absolute;
@@ -5581,7 +5585,7 @@ p:last-child .Youtube_view_link a:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(59,210,61,.95);
+    background-color: #d2a03b;
     opacity: 0;
     z-index: 1;
     transition: opacity .4s
@@ -5598,8 +5602,8 @@ p:last-child .Youtube_view_link a:last-child {
     left: 0;
     width: 39px;
     height: 39px;
-    background-color: #3bd23d;
-    color: #004628;
+    background-color: #d2a03b;
+    color: #001346;
     font-size: 1.0625rem;
     line-height: 1;
     z-index: 2;
@@ -5629,7 +5633,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .kent-values .fsPostElement article:focus-within .fsTitle,.home .kent-values .fsPostElement article:hover .fsTitle {
     margin-bottom: 15px;
-    color: #004628
+    color: #000000
 }
 
 .home .kent-values .fsPostElement article:focus-within .fsSummary,.home .kent-values .fsPostElement article:hover .fsSummary {
@@ -5676,9 +5680,9 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .kent-values .fsPostElement article .fsTitle {
     color: inherit;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     line-height: 1;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0;
     transition: margin .4s;
@@ -5690,7 +5694,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .fsPostElement article .fsSummary {
-    color: #004628;
+    color: #001346;
     font-size: .75rem;
     line-height: 1.834;
     transition: all .4s;
@@ -5700,8 +5704,8 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .fsPostElement article .fsSummary a:not([class]) {
-    color: #004628;
-    background-image: linear-gradient(0deg,#004628 0,#004628)
+    color: #001346;
+    background-image: linear-gradient(0deg,#001346 0,#001346)
 }
 
 .home .kent-values .fsPostElement article .fsSummary a:not([class]):focus,.home .kent-values .fsPostElement article .fsSummary a:not([class]):hover {
@@ -5712,7 +5716,7 @@ p:last-child .Youtube_view_link a:last-child {
     display: table;
     text-transform: uppercase;
     color: #fff;
-    background-color: #004628;
+    background-color: #001346;
     font-size: 0;
     line-height: 1;
     transition: all .4s;
@@ -5722,7 +5726,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .fsPostElement article .fsReadMoreLink:focus,.home .kent-values .fsPostElement article .fsReadMoreLink:hover {
-    color: #004628;
+    color: #001346;
     background-color: #fff;
     text-decoration: none
 }
@@ -5749,7 +5753,7 @@ p:last-child .Youtube_view_link a:last-child {
     left: 0;
     width: 100%;
     height: 1px;
-    background-color: #3bd23d
+    background-color: #d2a03b
 }
 
 @media (min-width: 600px) {
@@ -5780,7 +5784,7 @@ p:last-child .Youtube_view_link a:last-child {
     background: none;
     cursor: pointer;
     margin: 0;
-    color: #004628;
+    color: #001346;
     padding: 5px;
     font-size: 0;
     line-height: 1;
@@ -5788,7 +5792,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .mobile-posts .slick-arrow:focus,.home .kent-values .mobile-posts .slick-arrow:hover {
-    color: #477258
+    color: #476472
 }
 
 .home .kent-values .mobile-posts .slick-arrow:before {
@@ -5823,8 +5827,8 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .mobile-posts .slick-dots li.slick-active button {
-    background-color: #004628;
-    border-color: #004628
+    background-color: #001346;
+    border-color: #001346
 }
 
 .home .kent-values .mobile-posts .slick-dots li button {
@@ -5843,8 +5847,8 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .mobile-posts .slick-dots li button:focus,.home .kent-values .mobile-posts .slick-dots li button:hover {
-    background-color: #004628;
-    border-color: #004628
+    background-color: #001346;
+    border-color: #001346
 }
 
 .home .kent-values .mobile-posts article {
@@ -5883,7 +5887,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .kent-values .mobile-posts article:focus-within .fsTitle,.home .kent-values .mobile-posts article:hover .fsTitle {
     margin-bottom: 15px;
-    color: #004628
+    color: #001346
 }
 
 .home .kent-values .mobile-posts article:focus-within .fsSummary,.home .kent-values .mobile-posts article:hover .fsSummary {
@@ -5923,8 +5927,8 @@ p:last-child .Youtube_view_link a:last-child {
     left: 0;
     width: 39px;
     height: 39px;
-    background-color: #3bd23d;
-    color: #004628;
+    background-color: #d2a03b;
+    color: #001346;
     font-size: 1.0625rem;
     line-height: 1;
     z-index: 2;
@@ -5978,7 +5982,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .mobile-posts article .fsSummary {
-    color: #004628;
+    color: #001346;
     font-size: .875rem;
     line-height: 1.5715;
     transition: all .4s;
@@ -5988,8 +5992,8 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .mobile-posts article .fsSummary a:not([class]) {
-    color: #004628;
-    background-image: linear-gradient(0deg,#004628 0,#004628)
+    color: #001346;
+    background-image: linear-gradient(0deg,#001346 0,#001346)
 }
 
 .home .kent-values .mobile-posts article .fsSummary a:not([class]):focus,.home .kent-values .mobile-posts article .fsSummary a:not([class]):hover {
@@ -6002,7 +6006,7 @@ p:last-child .Youtube_view_link a:last-child {
     display: table;
     text-transform: uppercase;
     color: #fff;
-    background: #004628;
+    background: #001346;
     font-size: 0;
     line-height: 1;
     transition: all .4s;
@@ -6012,7 +6016,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .mobile-posts article .fsReadMoreLink:focus,.home .kent-values .mobile-posts article .fsReadMoreLink:hover {
-    color: #004628;
+    color: #001346;
     background-color: #fff;
     text-decoration: none
 }
@@ -6040,7 +6044,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .fsPanel.fsStateOpen>header .fsElementTitle {
-    color: #004628;
+    color: #001346;
     font-size: 1.375rem;
     margin-bottom: 1px
 }
@@ -6115,7 +6119,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .fsPanel.show:not(.fsStateOpen)>header .fsElementTitle {
-    color: #004628;
+    color: #001346;
     font-size: 1.375rem;
     margin-bottom: 1px
 }
@@ -6164,7 +6168,7 @@ p:last-child .Youtube_view_link a:last-child {
         height: 550px;
         background-repeat: no-repeat;
         background-size: 0 100%;
-        background-image: linear-gradient(270deg,#004628 0,#004628)
+        background-image: linear-gradient(270deg,#001346 0,#001346)
     }
 }
 
@@ -6209,7 +6213,7 @@ p:last-child .Youtube_view_link a:last-child {
         height: 504px;
         background-repeat: no-repeat;
         background-size: 0 100%;
-        background-image: linear-gradient(0deg,#004628 0,#004628 236px,rgba(0,0,0,0) 0,rgba(0,0,0,0) 268px,#004628 0,#004628);
+        background-image: linear-gradient(0deg,#001346 0,#001346 236px,rgba(0,0,0,0) 0,rgba(0,0,0,0) 268px,#001346 0,#001346);
         visibility: visible
     }
 }
@@ -6301,7 +6305,7 @@ p:last-child .Youtube_view_link a:last-child {
         transform: translateY(-50%);
         width: 0;
         height: 8px;
-        background-color: #3bd23d;
+        background-color: #f7931e;
         transition: width .3s
     }
 }
@@ -6317,7 +6321,7 @@ p:last-child .Youtube_view_link a:last-child {
     top: 50%;
     transform: translate3d(0,-50%,0);
     right: 0;
-    color: #004628;
+    color: #001346;
     font-weight: 900
 }
 
@@ -6338,7 +6342,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .kent-values .fsPanel>header .fsElementTitle:focus-within,.home .kent-values .fsPanel>header .fsElementTitle:hover {
-    color: #004628;
+    color: #001346;
     background-color: rgba(0,0,0,0)!important
 }
 
@@ -6411,7 +6415,7 @@ p:last-child .Youtube_view_link a:last-child {
     position: absolute;
     bottom: 49px;
     right: -26px;
-    color: #3bd23d;
+    color: #d2a03b;
     font-size: 6.8125rem;
     line-height: 1;
     font-family: 'Montserrat', sans-serif;
@@ -6488,7 +6492,7 @@ p:last-child .Youtube_view_link a:last-child {
     max-width: 1180px;
     margin: 0 auto;
     height: 1px;
-    background-color: #3bd23d
+    background-color: #d2a03b
 }
 
 @media (min-width: 600px) {
@@ -6511,7 +6515,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .behind-the-scenes.in-view:before {
-    background: #3bd23d
+    background: #d2a03b
 }
 
 .home .behind-the-scenes.in-view>header .fsElementHeaderContent,.home .behind-the-scenes.in-view>header .fsElementTitle {
@@ -6675,7 +6679,7 @@ p:last-child .Youtube_view_link a:last-child {
     background: none;
     cursor: pointer;
     margin: 0;
-    color: #004628;
+    color: #001346;
     padding: 5px;
     font-size: 0;
     line-height: 1;
@@ -6689,7 +6693,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .behind-the-scenes .slick-arrow:focus,.home .behind-the-scenes .slick-arrow:hover {
-    color: #477258
+    color: #476472
 }
 
 @media (min-width: 1000px) {
@@ -6730,8 +6734,8 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .behind-the-scenes .slick-dots li.slick-active button {
-    border-color: #004628;
-    background-color: #004628
+    border-color: #001346;
+    background-color: #001346
 }
 
 @media (min-width: 1000px) {
@@ -6763,8 +6767,8 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .behind-the-scenes .slick-dots li button:focus,.home .behind-the-scenes .slick-dots li button:hover {
-    border-color: #004628;
-    background-color: #004628
+    border-color: #001346;
+    background-color: #001346
 }
 
 @media (min-width: 1000px) {
@@ -7012,7 +7016,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .behind-the-scenes .fsContent>header.on .open-modal {
-    background-color: #004628
+    background-color: #001346
 }
 
 .home .behind-the-scenes .fsContent>header.on .open-modal:before {
@@ -7036,7 +7040,7 @@ p:last-child .Youtube_view_link a:last-child {
     speak: none;
     font-size: .4375rem;
     line-height: 1;
-    color: #004628;
+    color: #001346;
     z-index: 1;
     position: absolute;
     left: 50%;
@@ -7251,8 +7255,8 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .behind-the-scenes .fsContent>.fsElementContent a.fs_style_32.fs_style_35 {
     padding: 14px 19px;
-    border-color: #3bd23d!important;
-    color: #004628;
+    border-color: #d2a03b!important;
+    color: #001346;
     font-size: .9375rem;
     line-height: 1;
     font-family: Lato,sans-serif!important;
@@ -7276,7 +7280,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .behind-the-scenes .fsContent>.fsElementContent a.fs_style_32.fs_style_35:focus,.home .behind-the-scenes .fsContent>.fsElementContent a.fs_style_32.fs_style_35:hover {
-    border-color: #004628!important;
+    border-color: #001346!important;
     color: #fff
 }
 
@@ -7290,9 +7294,9 @@ p:last-child .Youtube_view_link a:last-child {
     right: 20px;
     width: 35px;
     height: 35px;
-    border: 2px solid #004628;
+    border: 2px solid #001346;
     border-radius: 100%;
-    color: #004628;
+    color: #001346;
     transition: all .3s
 }
 
@@ -7315,7 +7319,7 @@ p:last-child .Youtube_view_link a:last-child {
 }
 
 .home .behind-the-scenes .fsContent .close-modal:focus,.home .behind-the-scenes .fsContent .close-modal:hover {
-    background-color: #004628;
+    background-color: #001346;
     color: #fff
 }
 
@@ -7469,19 +7473,19 @@ p:last-child .Youtube_view_link a:last-child {
     width: 100%;
     height: calc(100% - 180px);
     z-index: -1;
-    background-image: linear-gradient(90deg,#004628 0,#004628 calc(100% - 42px),#3bd23d calc(100% - 42px),#3bd23d)
+    background-image: linear-gradient(90deg,#001346 0,#001346 calc(100% - 42px),#d2a03b calc(100% - 42px),#d2a03b)
 }
 
 @media (min-width: 600px) {
     .home .voices:before {
-        background-image:linear-gradient(90deg,#004628 0,#004628 calc(100% - 120px),#3bd23d calc(100% - 120px),#3bd23d);
+        background-image:linear-gradient(90deg,#001346 0,#001346 calc(100% - 120px),#d2a03b calc(100% - 120px),#d2a03b);
         height: calc(100% - 220px)
     }
 }
 
 @media (min-width: 1000px) {
     .home .voices:before {
-        background-image:linear-gradient(90deg,#004628 0,#004628 calc(100% - 269px),#3bd23d calc(100% - 269px),#3bd23d);
+        background-image:linear-gradient(90deg,#001346 0,#001346 calc(100% - 269px),#d2a03b calc(100% - 269px),#d2a03b);
         height: calc(100% - 56px)
     }
 }
@@ -7493,7 +7497,7 @@ p:last-child .Youtube_view_link a:last-child {
     left: 20px;
     width: calc(100% - 40px);
     height: 1px;
-    background-color: #3bd23d
+    background-color: #d2a03b
 }
 
 @media (min-width: 1000px) {
@@ -7726,7 +7730,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
-    color: #004628;
+    color: #001346;
     position: absolute;
     bottom: -55px;
     left: calc(50% - 35px);
@@ -7818,7 +7822,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 .home .voices .fsPostElement article .fsReadMoreLink {
     padding: 21px 25px 20px;
     background: #e4d478;
-    color: #004628;
+    color: #001346;
     font-size: 1rem;
     line-height: 1;
     letter-spacing: 1px;
@@ -7959,14 +7963,14 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 .home .begin-your-journey>header .fsElementHeaderContent a.fs_style_32.fs_style_35 {
     padding: 26px 25px;
-    border-color: #3bd23d!important;
-    color: #004628;
+    border-color: #d2a03b!important;
+    color: #001346;
     font-size: 1rem;
     line-height: 1
 }
 
 .home .begin-your-journey>header .fsElementHeaderContent a.fs_style_32.fs_style_35:focus,.home .begin-your-journey>header .fsElementHeaderContent a.fs_style_32.fs_style_35:hover {
-    border-color: #004628!important;
+    border-color: #001346!important;
     color: #fff
 }
 
@@ -7981,7 +7985,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 @media (min-width: 1000px) {
     .home .begin-your-journey>.fsElementContent {
-        border:1px solid #3bd23d;
+        border:1px solid #d2a03b;
         display: flex
     }
 
@@ -8007,7 +8011,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
         top: 0;
         width: 25%;
         height: 100%;
-        background-color: #004628;
+        background-color: #001346;
         transition: left .3s ease-in-out
     }
 }
@@ -8017,7 +8021,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 }
 
 .home .begin-your-journey .fsPanel {
-    border-bottom: 1px solid #3bd23d
+    border-bottom: 1px solid #d2a03b
 }
 
 @media (min-width: 1000px) {
@@ -8034,7 +8038,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
         transform: translateY(-50%);
         width: 1px;
         height: calc(100% - 70px);
-        background-color: #3bd23d
+        background-color: #d2a03b
     }
 
     .home .begin-your-journey .fsPanel.show:before {
@@ -8079,7 +8083,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 .home .begin-your-journey .fsPanel.fsStateOpen>header {
     color: #fff;
-    background: #004628
+    background: #001346
 }
 
 @media (min-width: 1000px) {
@@ -8108,7 +8112,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 .home .begin-your-journey .fsPanel>header:focus-within,.home .begin-your-journey .fsPanel>header:hover {
     color: #fff;
-    background: #004628
+    background: #001346
 }
 
 .home .begin-your-journey .fsPanel>header .fsElementTitle {
@@ -8255,7 +8259,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
     }
 
     .home .begin-your-journey .fsResourceElement figcaption a:not([class]):focus,.home .begin-your-journey .fsResourceElement figcaption a:not([class]):hover {
-        color: #004628
+        color: #001346
     }
 
     .home .begin-your-journey .fsResourceElement figcaption>* {
@@ -8273,11 +8277,11 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 @media (max-width: 999px) {
     .home .begin-your-journey .fsResourceElement figcaption .fs_style_32.fs_style_41 {
-        border:1px solid #477258!important;
+        border:1px solid #476472!important;
         margin: 0 0 10px;
         padding: 14px 29px;
         background: rgba(0,0,0,0);
-        color: #477258;
+        color: #476472;
         cursor: pointer;
         text-align: center;
         border-radius: 0;
@@ -8293,9 +8297,9 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
     }
 
     .fsStateSelected .home .begin-your-journey .fsResourceElement figcaption .fs_style_32.fs_style_41,.home .begin-your-journey .fsResourceElement figcaption .fs_style_32.fs_style_41.on,.home .begin-your-journey .fsResourceElement figcaption .fs_style_32.fs_style_41:focus,.home .begin-your-journey .fsResourceElement figcaption .fs_style_32.fs_style_41:hover {
-        background: #004628;
+        background: #001346;
         color: #fff;
-        border-color: #004628!important;
+        border-color: #001346!important;
         transition: all .3s
     }
 
@@ -8315,8 +8319,8 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 .home .begin-your-journey .fsResourceElement>footer .fsElementFooterContent a {
     border-radius: 100%;
-    background: #004628;
-    color: #3bd23d;
+    background: #001346;
+    color: #d2a03b;
     border: 1px solid #fff;
     font-size: 0;
     line-height: 1;
@@ -8336,9 +8340,9 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 }
 
 .home .begin-your-journey .fsResourceElement>footer .fsElementFooterContent a:focus,.home .begin-your-journey .fsResourceElement>footer .fsElementFooterContent a:hover {
-    border-color: #004628;
+    border-color: #001346;
     background: #fff;
-    color: #004628
+    color: #001346
 }
 
 .home .begin-your-journey .fsResourceElement>footer .fsElementFooterContent a:before {
@@ -8631,7 +8635,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 .home.fsComposeMode .voices {
     padding: 50px 0;
     margin-bottom: 50px;
-    background-color: #004628
+    background-color: #001346
 }
 
 .home.fsComposeMode .voices:before {
@@ -8760,7 +8764,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 }
 
 .home.fsComposeMode .begin-your-journey .fsPanel.fsStateOpen>header {
-    background: #004628
+    background: #001346
 }
 
 .home.fsComposeMode .begin-your-journey .fsPanel.fsStateOpen>.fsElementContent {
@@ -8772,7 +8776,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 }
 
 .home.fsComposeMode .begin-your-journey .fsPanel>header:focus-within,.home.fsComposeMode .begin-your-journey .fsPanel>header:hover {
-    background-color: #004628
+    background-color: #001346
 }
 
 .home.fsComposeMode .begin-your-journey .fsPanel:after,.home.fsComposeMode .begin-your-journey .fsPanel:before {
@@ -8971,7 +8975,7 @@ body.fsComposeMode .fsPostElement.fsSlideshow.custom-post-slideshow article>:not
 
 .fsPostElement.fsSlideshow.custom-post-slideshow article .fsReadMoreLink:focus,.fsPostElement.fsSlideshow.custom-post-slideshow article .fsReadMoreLink:hover {
     border-color: #fff;
-    color: #004628;
+    color: #001346;
     background-color: #fff;
     text-decoration: none
 }
@@ -8992,7 +8996,7 @@ body.fsComposeMode .fsPostElement.fsSlideshow.custom-post-slideshow article>:not
     transform: translateY(-50%);
     width: 100%;
     height: 1px;
-    background-color: #3bd23d
+    background-color: #d2a03b
 }
 
 .divider.fsElement picture {
@@ -9013,7 +9017,7 @@ body.fsComposeMode .fsPostElement.fsSlideshow.custom-post-slideshow article>:not
     transform: translateY(-50%);
     width: 100%;
     height: 1px;
-    background-color: #3bd23d
+    background-color: #d2a03b
 }
 
 .full-width-panel.fsContent {
@@ -9149,7 +9153,7 @@ body.has-hero:not(.fsComposeMode) #fsHeader .nav-external-programs:after {
 }
 
 body.has-hero:not(.fsComposeMode) #fsHeader .nav-external-programs .fsNavLevel1>li[class*=fsNavCurrentPage] a {
-    color: #477258
+    color: #476472
 }
 
 body.has-hero:not(.fsComposeMode) #fsHeader .nav-external-programs .fsNavLevel1>li>a {
@@ -9585,7 +9589,7 @@ body.fsComposeMode .hero-landing img,body.fsComposeMode .hero img {
     margin: 20px auto 0;
     width: 71px;
     height: 4px;
-    background-color: #3bd23d
+    background-color: #d2a03b
 }
 
 .image-button.fsContent .wrapper .fsElementContent a:not([class]) {
@@ -9613,7 +9617,7 @@ body.fsComposeMode .hero-landing img,body.fsComposeMode .hero img {
     margin: 0 auto;
     padding: 0;
     border: 1px solid #fff;
-    color: #3bd23d;
+    color: #d2a03b;
     background: none;
     border-radius: 100%;
     font-size: 0;
@@ -9622,7 +9626,7 @@ body.fsComposeMode .hero-landing img,body.fsComposeMode .hero img {
 
 .image-button.fsContent .wrapper footer a:not([class]):focus,.image-button.fsContent .wrapper footer a:not([class]):hover {
     background-color: #fff;
-    color: #004628
+    color: #001346
 }
 
 .image-button.fsContent .wrapper footer a:not([class]):before {
@@ -9740,6 +9744,9 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
     transition-delay: .7s
 }
 
+
+/* Stories Gradient */
+
 .sharing-stories:before {
     content: "";
     position: absolute;
@@ -9749,7 +9756,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
     height: calc(100% - 86px);
     background-position: 100% 0;
     background-size: 1440px 100%;
-    background-image: linear-gradient(121.91deg,#004628 27.3%,#1bb929 134.99%);
+    background-image: linear-gradient(121.91deg, #462c00 27.3%, #fee10f 134.99%);
     opacity: 0;
     transition: all .3s ease-in-out
 }
@@ -9904,7 +9911,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
     top: 50%;
     transform: translateY(-50%);
     z-index: 5;
-    color: #004628;
+    color: #001346;
     padding: 5px;
     font-size: 0;
     line-height: 1;
@@ -9961,7 +9968,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 }
 
 .sharing-stories .slick-dots li.slick-active button {
-    background-color: #004628
+    background-color: #001346
 }
 
 .sharing-stories .slick-dots li button {
@@ -9972,7 +9979,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
     display: block;
     width: 10px;
     height: 10px;
-    border: 1px solid #004628;
+    border: 1px solid #001346;
     transition: background .3s;
     border-radius: 100%;
     font-size: 0;
@@ -9980,7 +9987,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 }
 
 .sharing-stories .slick-dots li button:focus,.sharing-stories .slick-dots li button:hover {
-    background-color: #004628
+    background-color: #001346
 }
 
 .sharing-stories .slideshow-navigation {
@@ -10317,7 +10324,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
     font-size: .75rem;
     line-height: 1;
     text-transform: uppercase;
-    color: #004628;
+    color: #001346;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -10402,7 +10409,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
     top: 0;
     right: 0;
     color: #fff;
-    background-color: #004628;
+    background-color: #001346;
     width: 50px;
     height: 50px;
     transition: all .3s;
@@ -10425,7 +10432,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 
 .sharing-stories .fsResourceElement .fsResource .close-video:focus,.sharing-stories .fsResourceElement .fsResource .close-video:hover {
     background-color: #fff;
-    color: #004628
+    color: #001346
 }
 
 .sharing-stories .fsResourceElement .fsResource .fsResourceVideoWrapper {
@@ -10468,7 +10475,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 }
 
 .sharing-stories.no-bg>header {
-    color: #004628
+    color: #001346
 }
 
 .sharing-stories.grey-bg:before {
@@ -10496,7 +10503,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 }
 
 .fsComposeMode .sharing-stories {
-    background-image: linear-gradient(121.91deg,#004628 27.3%,#1bb929 134.99%);
+    background-image: linear-gradient(121.91deg,#001346 27.3%,#1bb929 134.99%);
     padding: 50px 0;
     margin-bottom: 50px
 }
@@ -10594,7 +10601,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 
 .styled-tabs.fsTabs {
     padding-bottom: 50px;
-    border-bottom: 1px solid #3bd23d
+    border-bottom: 1px solid #d2a03b
 }
 
 .styled-tabs.fsTabs .fsTabsNav {
@@ -10630,18 +10637,18 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
 }
 
 .styled-tabs.fsTabs .fsTabsNav li.fsStateSelected a {
-    border-color: #004628;
-    background-color: #004628;
-    color: #3bd23d
+    border-color: #001346;
+    background-color: #001346;
+    color: #d2a03b
 }
 
 .styled-tabs.fsTabs .fsTabsNav li a {
     height: 100%;
     display: flex;
     align-items: center;
-    border: 1px solid #3bd23d;
+    border: 1px solid #d2a03b;
     background-color: #f8f8f8;
-    color: #004628;
+    color: #001346;
     font-size: 1rem;
     line-height: .77778;
     font-family: 'Montserrat', sans-serif;
@@ -10659,9 +10666,9 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
 }
 
 .styled-tabs.fsTabs .fsTabsNav li a:focus,.styled-tabs.fsTabs .fsTabsNav li a:hover {
-    border-color: #004628;
-    background-color: #004628;
-    color: #3bd23d
+    border-color: #001346;
+    background-color: #001346;
+    color: #d2a03b
 }
 
 .styled-tabs.fsTabs .fsTabsNav li a:before {
@@ -10674,7 +10681,7 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
     background: none;
     font-size: 2.625rem;
     line-height: .83333;
-    border-right: 1px solid #3bd23d;
+    border-right: 1px solid #d2a03b;
     padding-right: 15px;
     margin-right: 15px
 }
@@ -10724,18 +10731,18 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
 }
 
 .infograph-tabs.fsTabs .fsTabsNav li.fsStateSelected a {
-    border-color: #004628;
-    background-color: #004628;
-    color: #3bd23d
+    border-color: #001346;
+    background-color: #001346;
+    color: #d2a03b
 }
 
 .infograph-tabs.fsTabs .fsTabsNav li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #3bd23d;
+    border: 1px solid #d2a03b;
     background-color: #f8f8f8;
-    color: #004628;
+    color: #001346;
     font-size: 1.5625rem;
     line-height: .83333;
     font-family: 'Montserrat', sans-serif;
@@ -10761,9 +10768,9 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
 }
 
 .infograph-tabs.fsTabs .fsTabsNav li a:focus,.infograph-tabs.fsTabs .fsTabsNav li a:hover {
-    border-color: #004628;
-    background-color: #004628;
-    color: #3bd23d
+    border-color: #001346;
+    background-color: #001346;
+    color: #d2a03b
 }
 
 .infograph-tabs.fsTabs .fsTabsNav li a:after,.infograph-tabs.fsTabs .fsTabsNav li a:before {
@@ -10789,7 +10796,7 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
 }
 
 .stat.fsContent[class*=icon]:before {
-    color: #004628;
+    color: #001346;
     font-size: 4.6875rem;
     line-height: 1;
     display: block
@@ -11339,7 +11346,7 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
     display: block;
     width: 64px;
     height: 1px;
-    background-color: #3bd23d
+    background-color: #d2a03b
 }
 
 .stat.fsContent>.fsElementContent {
@@ -11374,14 +11381,14 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
     left: 0;
     width: 1px;
     height: calc(100% - 34px);
-    background-color: #3bd23d
+    background-color: #d2a03b
 }
 
 .numbered-header>header .fsElementHeaderContent {
     margin: 0;
     font-size: 2.25rem;
     line-height: .83333;
-    color: #004628;
+    color: #001346;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase
 }
@@ -11543,9 +11550,9 @@ body:not(.fsComposeMode) .bpa-athletics-toggle-1>footer,body:not(.fsComposeMode)
 }
 
 .bpa-athletics-toggle-1>.fsElementContent button {
-    border: 1px solid #477258!important;
+    border: 1px solid #476472!important;
     background: rgba(0,0,0,0);
-    color: #477258;
+    color: #476472;
     text-align: center;
     border-radius: 0;
     transition: all .3s;
@@ -11569,9 +11576,9 @@ body:not(.fsComposeMode) .bpa-athletics-toggle-1>footer,body:not(.fsComposeMode)
 }
 
 .bpa-athletics-toggle-1>.fsElementContent button.on,.bpa-athletics-toggle-1>.fsElementContent button:focus,.bpa-athletics-toggle-1>.fsElementContent button:hover,.fsStateSelected .bpa-athletics-toggle-1>.fsElementContent button {
-    background: #004628;
+    background: #001346;
     color: #fff;
-    border-color: #004628!important;
+    border-color: #001346!important;
     transition: all .3s
 }
 
@@ -11701,7 +11708,7 @@ p:last-child .bpa-athletics-toggle-1>.fsElementContent button:last-child {
 
 .bpa-athletic-events-1 .fsListItems article .fsTitle {
     display: block;
-    color: #004628;
+    color: #001346;
     font-family: inherit;
     font-size: 16px;
     line-height: 24px;
@@ -11719,11 +11726,11 @@ p:last-child .bpa-athletics-toggle-1>.fsElementContent button:last-child {
 
 .bpa-athletic-events-1 .fsListItems article .fsAthleticsEventReadMoreLink {
     margin: 0;
-    color: #004628
+    color: #001346
 }
 
 .bpa-athletic-events-1 .fsListItems article .fsAthleticsEventReadMoreLink:focus,.bpa-athletic-events-1 .fsListItems article .fsAthleticsEventReadMoreLink:hover {
-    color: #004628
+    color: #001346
 }
 
 .bpa-athletic-events-1 .fsListItems article.fsAthleticsStatusCancelled .fsAthleticsAdvantage,.bpa-athletic-events-1 .fsListItems article.fsAthleticsStatusChanged .fsAthleticsAdvantage,.bpa-athletic-events-1 .fsListItems article.fsAthleticsStatusPostponed .fsAthleticsAdvantage {
@@ -11798,9 +11805,9 @@ p:last-child .bpa-athletics-toggle-1>.fsElementContent button:last-child {
 }
 
 .bpa-athletic-events-1>footer a {
-    border: 1px solid #3bd23d!important;
-    background: #3bd23d;
-    color: #004628;
+    border: 1px solid #d2a03b!important;
+    background: #d2a03b;
+    color: #001346;
     text-align: center;
     border-radius: 0;
     transition: all .3s;
@@ -11826,8 +11833,8 @@ p:last-child .bpa-athletics-toggle-1>.fsElementContent button:last-child {
 
 .bpa-athletic-events-1>footer a.on,.bpa-athletic-events-1>footer a:focus,.bpa-athletic-events-1>footer a:hover,.fsStateSelected .bpa-athletic-events-1>footer a {
     background: rgba(0,0,0,0);
-    color: #004628;
-    border-color: #477258!important;
+    color: #001346;
+    border-color: #476472!important;
     transition: all .3s
 }
 
@@ -11878,7 +11885,7 @@ p:last-child .bpa-athletic-events-1>footer a:last-child {
 
 .bpa-athletic-events-1 .slick-arrow:focus:before,.bpa-athletic-events-1 .slick-arrow:hover:before {
     transition: .3s;
-    color: #004628
+    color: #001346
 }
 
 .bpa-athletic-events-1 .slick-arrow:focus {
@@ -11886,7 +11893,7 @@ p:last-child .bpa-athletic-events-1>footer a:last-child {
 }
 
 .bpa-athletic-events-1 .slick-arrow:focus:before {
-    box-shadow: 0 1px 0 0 #004628
+    box-shadow: 0 1px 0 0 #001346
 }
 
 .bpa-athletic-events-1 .slick-arrow.slick-prev {
@@ -12120,7 +12127,7 @@ body.fsComposeMode .bpa-college-slider-2>header {
 }
 
 .bpa-college-slider-2>header a:focus,.bpa-college-slider-2>header a:hover {
-    color: #004628;
+    color: #001346;
     -webkit-text-decoration-style: dotted;
     text-decoration-style: dotted
 }
@@ -12247,7 +12254,7 @@ body:not(.fsComposeMode) .bpa-college-slider-2>.fsElementContent>.fsListItems .f
 }
 
 body:not(.fsComposeMode) .bpa-college-slider-2>.fsElementContent>.fsListItems .fsResource a:focus {
-    box-shadow: inset 0 0 0 1px #004628
+    box-shadow: inset 0 0 0 1px #001346
 }
 
 @media (min-width: 700px) {
@@ -12305,4 +12312,11 @@ body:not(.fsComposeMode) .bpa-college-slider-2>.fsElementContent>.fsListItems .f
     -webkit-filter: grayscale(1) invert(100%);
     filter: grayscale(1) invert(100%);
     opacity: .8
+}
+
+
+/* Things  that make bullets color  */
+.fsPanel>header>.fsElementTitle>a {
+    color: #f7931e;
+    text-decoration: none;
 }
