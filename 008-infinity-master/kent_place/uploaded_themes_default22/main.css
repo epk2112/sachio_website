@@ -5863,7 +5863,7 @@ p:last-child .Youtube_view_link a:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(59,210,61,.95);
+    background-color: #d2a03b;
     opacity: 0;
     z-index: 1;
     transition: opacity .4s
