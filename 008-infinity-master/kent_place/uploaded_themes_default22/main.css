@@ -1,8 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300,300i,400,400i,500,600,600i,700,700i,800|Lato:300,400,700,900|Oswald:500,600&font-display=swap);@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300,300i,400,400i,500,600,600i,700,700i,800|Lato:300,400,700,900|Oswald:500,600&font-display=swap);@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300,300i,400,400i,500,600,600i,700,700i,800|Lato:300,400,700,900|Oswald:500,600&font-display=swap);@charset "UTF-8";.compartment {
-    position: relative;
-    margin: 0 auto;
-    max-width: 1180px
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 .margin-x {
     margin-right: 1.25em;
@@ -56,16 +52,13 @@
 }
 
 @font-face {
-    font-family: IcoMoon;
-    src: url(fonts/icomoon.eot);
-    src: url(fonts/icomoon.eot) format("embedded-opentype"),url(fonts/icomoon.woff2) format("woff2"),url(fonts/icomoon.woff) format("woff"),url(fonts/icomoon.ttf) format("truetype"),url(fonts/icomoon.svg) format("svg");
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
-    font-family: HCo Knockout\ 48;
-    src: url(fonts/Knockout-48_Web.woff2) format("woff2");
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal
 }
@@ -102,7 +95,7 @@ h1 {
     font-weight: 400;
     font-size: 3.875rem;
     line-height: 4.625rem;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #004628;
     margin-bottom: 10px
@@ -123,8 +116,8 @@ h2 {
 
 h2,h3 {
     margin-top: 0;
-    font-weight: 400;
-    font-family: HCo Knockout\ 48,serif;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #004628;
     margin-bottom: 20px
@@ -145,7 +138,7 @@ h4 {
 
 h4,h5 {
     margin-top: 0;
-    font-family: Libre Franklin,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #242424;
     margin-bottom: 20px
 }
@@ -159,10 +152,10 @@ h5 {
 
 h6 {
     margin-top: 0;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.125rem;
     line-height: 1.375rem;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #636363;
     margin-bottom: 20px
@@ -279,7 +272,7 @@ iframe {
     font-size: .875rem;
     line-height: 1.2143;
     text-transform: uppercase;
-    font-family: Libre Franklin,sans-serif!important;
+    font-family: 'Montserrat', sans-serif!important;
     max-width: 300px;
     text-decoration: none!important;
     display: inline-block
@@ -315,7 +308,7 @@ p:last-child .fs_style_32.fs_style_35:last-child {
     font-size: .875rem;
     line-height: 1.2143;
     text-transform: uppercase;
-    font-family: Libre Franklin,sans-serif!important;
+    font-family: 'Montserrat', sans-serif!important;
     max-width: 300px;
     text-decoration: none!important;
     display: inline-block
@@ -351,7 +344,7 @@ p:last-child .fs_style_32.fs_style_36:last-child {
     font-size: .875rem;
     line-height: 1.2143;
     text-transform: uppercase;
-    font-family: Libre Franklin,sans-serif!important;
+    font-family: 'Montserrat', sans-serif!important;
     max-width: 300px;
     text-decoration: none!important;
     display: inline-block
@@ -387,7 +380,7 @@ p:last-child .fs_style_32.fs_style_37:last-child {
     font-size: .875rem;
     line-height: 1.2143;
     text-transform: uppercase;
-    font-family: Libre Franklin,sans-serif!important;
+    font-family: 'Montserrat', sans-serif!important;
     max-width: 300px;
     text-decoration: none!important;
     display: inline-block
@@ -423,7 +416,7 @@ p:last-child .fs_style_32.fs_style_38:last-child {
     font-size: .875rem;
     line-height: 1.2143;
     text-transform: uppercase;
-    font-family: Libre Franklin,sans-serif!important;
+    font-family: 'Montserrat', sans-serif!important;
     max-width: 300px;
     text-decoration: none!important;
     display: inline-block
@@ -459,7 +452,7 @@ p:last-child .green-bg .fs_style_32.fs_style_38:last-child {
     font-size: .875rem;
     line-height: 1.2143;
     text-transform: uppercase;
-    font-family: Libre Franklin,sans-serif!important;
+    font-family: 'Montserrat', sans-serif!important;
     max-width: 300px;
     text-decoration: none!important;
     display: inline-block
@@ -495,7 +488,7 @@ p:last-child .fs_style_32.fs_style_39:last-child {
     font-size: .875rem;
     line-height: 1.2143;
     text-transform: uppercase;
-    font-family: Libre Franklin,sans-serif!important;
+    font-family: 'Montserrat', sans-serif!important;
     max-width: 300px;
     text-decoration: none!important;
     display: inline-block
@@ -1034,7 +1027,7 @@ p:last-child .fs_style_43:last-child,p:last-child .fs_style_44:last-child {
 }
 
 .fs_style_43:before,.fs_style_44:before {
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -1403,7 +1396,7 @@ blockquote {
 
 blockquote:before {
     content: "\E900";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -1442,7 +1435,7 @@ cite {
     margin: 20px 0 0;
     font-style: normal;
     text-transform: uppercase;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     color: #004628;
     font-size: 1.25rem;
     line-height: .95
@@ -1631,7 +1624,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
     font-weight: 400;
     font-size: 3.875rem;
     line-height: 4.625rem;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #004628;
     margin-bottom: 10px
@@ -1757,7 +1750,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 
 .fsBreadcrumb ul span:before {
     content: "\E916";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -1842,7 +1835,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 
 .nav-tier>header .fsElementTitle:after {
     content: "\E903";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -1976,7 +1969,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 
 .nav-sub>header .nav-toggle:after {
     content: "\E905";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -2096,7 +2089,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
 
 .nav-sub>.fsElementContent .sublevel-toggle:before {
     content: "\E905";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -2278,7 +2271,7 @@ body:not(.fsComposeMode) .card ol:last-child,body:not(.fsComposeMode) .card p:la
     text-transform: uppercase;
     font-size: 2.4375rem;
     line-height: 1.6154;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     position: relative;
     transition: all .5s
@@ -2848,7 +2841,7 @@ body.fsComposeMode #fsPageWrapper {
 
 .fsConstituentSearchForm>label .department-wrapper:after {
     content: "\E905";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -2955,7 +2948,7 @@ body.fsComposeMode #fsPageWrapper {
 
 .fsConstituent.fsDialog .fsDialogCloseButton:before {
     content: "\E90C";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -3120,7 +3113,7 @@ body.fsComposeMode #fsPageWrapper {
 
 .fsConstituent.fsDialog .fsEmail a:before {
     content: "\E919";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -3148,7 +3141,7 @@ body.fsComposeMode #fsPageWrapper {
 
 .fsConstituent.fsDialog .fsPhone div:before {
     content: "\E91A";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -3195,7 +3188,7 @@ body.fsComposeMode #fsPageWrapper {
     color: #004628;
     font-size: 2.125rem;
     line-height: 1.5295;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 6px
@@ -3293,7 +3286,7 @@ body.fsComposeMode #fsPageWrapper {
     margin: 0;
     top: 50%;
     transform: translateY(-50%);
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-size: .875rem;
     line-height: 1;
     transition: color .5s,border .4s .1s;
@@ -3315,7 +3308,7 @@ body.fsComposeMode #fsPageWrapper {
     margin: 0;
     top: 50%;
     transform: translateY(-50%);
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-size: .875rem;
     line-height: 1;
     transition: color .5s,border .4s .1s;
@@ -3600,7 +3593,7 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
     font-weight: 400;
     font-size: 1.875rem;
     line-height: 2.25rem;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #004628;
     margin-bottom: 20px
@@ -3855,7 +3848,7 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
     text-transform: uppercase;
     font-size: 1.5rem;
     line-height: 1.25;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin-bottom: 10px
 }
@@ -3884,7 +3877,7 @@ body.fsComposeMode .fsAthleticsEvent.fsTable>.fsElementContent {
 
 .fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsAllDay:before,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsAthleticsLocations:before,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsLocation:before,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsTime:before,.fsAthleticsEvent.fsList:not(.bpa-athletic-events-1) article .fsTimeRange:before,.fsCalendar article .fsAllDay:before,.fsCalendar article .fsAthleticsLocations:before,.fsCalendar article .fsLocation:before,.fsCalendar article .fsTime:before,.fsCalendar article .fsTimeRange:before {
     content: "\E90B";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -4717,7 +4710,7 @@ p:last-child .Youtube_view_link a:last-child {
     font-size: 0;
     line-height: 1;
     font-weight: 500;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     mix-blend-mode: screen;
     text-align: center;
     overflow: hidden;
@@ -4893,7 +4886,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .hero-video>header .fsElementHeaderContent a:before {
     content: "\E910";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -4955,7 +4948,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .hero-video>footer .fsElementFooterContent button:after {
     content: "\E90F";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -4985,7 +4978,7 @@ p:last-child .Youtube_view_link a:last-child {
     font-size: 2.75rem;
     line-height: .90909;
     text-align: center;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff
 }
 
@@ -5416,7 +5409,8 @@ p:last-child .Youtube_view_link a:last-child {
     font-size: 2.0625rem;
     line-height: .87879;
     text-transform: uppercase;
-    font-family: HCo Knockout\ 48,serif
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 @media (min-width: 600px) {
@@ -5457,7 +5451,7 @@ p:last-child .Youtube_view_link a:last-child {
         color: #3bd23d;
         font-size: 21.875rem;
         line-height: 1;
-        font-family: HCo Knockout\ 48,serif;
+        font-family: 'Montserrat', sans-serif;
         z-index: 3
     }
 }
@@ -5595,7 +5589,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .kent-values .fsPostElement article:after {
     content: "\E905";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -5685,7 +5679,7 @@ p:last-child .Youtube_view_link a:last-child {
     font-size: 1.25rem;
     line-height: 1;
     font-weight: 400;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 0;
     transition: margin .4s;
     text-transform: uppercase
@@ -5803,7 +5797,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .kent-values .mobile-posts .slick-arrow.slick-prev:before {
     content: "\E904";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -5811,7 +5805,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .kent-values .mobile-posts .slick-arrow.slick-next:before {
     content: "\E90E";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -5920,7 +5914,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .kent-values .mobile-posts article:after {
     content: "\E905";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -5973,7 +5967,7 @@ p:last-child .Youtube_view_link a:last-child {
     font-size: 1.125rem;
     line-height: 1;
     font-weight: 400;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 0;
     transition: margin .4s;
     text-transform: uppercase
@@ -6284,7 +6278,7 @@ p:last-child .Youtube_view_link a:last-child {
     line-height: 1;
     min-height: 40px;
     font-weight: 400;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     border: 0;
     padding: 0 30px 0 0;
     transition: margin .3s;
@@ -6314,7 +6308,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .kent-values .fsPanel>header .fsElementTitle:after {
     content: "\E905";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -6420,7 +6414,7 @@ p:last-child .Youtube_view_link a:last-child {
     color: #3bd23d;
     font-size: 6.8125rem;
     line-height: 1;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     z-index: 3;
     opacity: 0;
     transform: translateY(30px);
@@ -6710,7 +6704,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .behind-the-scenes .slick-arrow.slick-prev:before {
     content: "\E904";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -6718,7 +6712,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .behind-the-scenes .slick-arrow.slick-next:before {
     content: "\E90E";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -6843,7 +6837,7 @@ p:last-child .Youtube_view_link a:last-child {
     font-size: 1.125rem;
     line-height: 1.682;
     font-weight: 400;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     opacity: 0;
     transform: translateY(30px);
@@ -7036,7 +7030,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .behind-the-scenes .fsContent>header:before {
     content: "\E905";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -7338,7 +7332,7 @@ p:last-child .Youtube_view_link a:last-child {
 
 .home .behind-the-scenes .fsContent .close-modal:before {
     content: "\E90C";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -7635,7 +7629,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 .home .voices .fsContent .slideshow-arrow.prev:before {
     content: "\E904";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -7643,7 +7637,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 .home .voices .fsContent .slideshow-arrow.next:before {
     content: "\E90E";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -7728,7 +7722,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 .home .voices .fsPostElement:after {
     content: "\E918";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -8122,7 +8116,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
     padding: 0;
     border: 0;
     background: none!important;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 2.5rem;
     line-height: 1;
@@ -8349,7 +8343,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 .home .begin-your-journey .fsResourceElement>footer .fsElementFooterContent a:before {
     content: "\E90E";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -8817,7 +8811,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 .fsPostElement.fsSlideshow.custom-post-slideshow .slick-arrow.fsPrevButton:before {
     content: "\E904";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -8841,7 +8835,7 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
 
 .fsPostElement.fsSlideshow.custom-post-slideshow .slick-arrow.fsNextButton:before {
     content: "\E90E";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -9314,7 +9308,7 @@ body.fsComposeMode .hero-landing img,body.fsComposeMode .hero img {
 
 .hero-landing footer .fsElementFooterContent button:before {
     content: "\E90F";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -9363,7 +9357,7 @@ body.fsComposeMode .hero-landing img,body.fsComposeMode .hero img {
 
 .hero-landing .fsElementSlideshowControls>button.fsSlideshowPause:before {
     content: "\E91B";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -9371,7 +9365,7 @@ body.fsComposeMode .hero-landing img,body.fsComposeMode .hero img {
 
 .hero-landing .fsElementSlideshowControls>button.fsSlideshowPlay:before {
     content: "\E910";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -9419,7 +9413,7 @@ body.fsComposeMode .hero-landing img,body.fsComposeMode .hero img {
 
 .hero-landing .slick-arrow.fsPrevButton:before {
     content: "\E904";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -9427,7 +9421,7 @@ body.fsComposeMode .hero-landing img,body.fsComposeMode .hero img {
 
 .hero-landing .slick-arrow.fsNextButton:before {
     content: "\E90E";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -9633,7 +9627,7 @@ body.fsComposeMode .hero-landing img,body.fsComposeMode .hero img {
 
 .image-button.fsContent .wrapper footer a:not([class]):before {
     content: "\E90E";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -9937,7 +9931,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 
 .sharing-stories .slick-arrow.slick-prev:before {
     content: "\E904";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -9949,7 +9943,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 
 .sharing-stories .slick-arrow.slick-next:before {
     content: "\E90E";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -10217,7 +10211,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 @media (min-width: 1000px) {
     .sharing-stories .fsResourceElement:after {
         content:"\E917";
-        font-family: IcoMoon;
+        font-family: 'Montserrat', sans-serif;
         font-smoothing: antialiased;
         font-weight: 400;
         speak: none;
@@ -10263,7 +10257,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 
 .sharing-stories .fsResourceElement>header .fsElementTitle:before {
     content: "\E910";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -10286,7 +10280,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
     margin-bottom: 1px;
     font-size: 1.8125rem;
     line-height: 1.311;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: rgba(0,0,0,0);
     transition: color .3s
@@ -10418,7 +10412,7 @@ body:not(.fsComposeMode) .equal-height .fsDiv .card {
 
 .sharing-stories .fsResourceElement .fsResource .close-video:before {
     content: "\E909";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none;
@@ -10650,7 +10644,7 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
     color: #004628;
     font-size: 1rem;
     line-height: .77778;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     transition: all .3s;
@@ -10744,7 +10738,7 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
     color: #004628;
     font-size: 1.5625rem;
     line-height: .83333;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
@@ -11388,7 +11382,7 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
     font-size: 2.25rem;
     line-height: .83333;
     color: #004628;
-    font-family: HCo Knockout\ 48,serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase
 }
 
@@ -11902,7 +11896,7 @@ p:last-child .bpa-athletic-events-1>footer a:last-child {
 
 .bpa-athletic-events-1 .slick-arrow.slick-prev:before {
     content: "\E904";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
@@ -11917,7 +11911,7 @@ p:last-child .bpa-athletic-events-1>footer a:last-child {
     left: auto;
     right: 0;
     content: "\E90E";
-    font-family: IcoMoon;
+    font-family: 'Montserrat', sans-serif;
     font-smoothing: antialiased;
     font-weight: 400;
     speak: none
