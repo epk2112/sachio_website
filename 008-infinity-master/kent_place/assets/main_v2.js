@@ -85804,182 +85804,188 @@ Selectize.define("fsSelectize", (function() {
 )),
 ( (e, t) => {
     const n = t.document.body.getAttribute("data-pageid");
-    n && t.fetch(`/fs/pages/${n}/page-pops`).then((e => e.text())).then((n => {
-        function i(e, t, n, i) {
-            return e.empty().append(t),
-            n.setContent(e),
-            e.removeAttr("hidden"),
-            n.addContent(i),
-            [t, n]
-        }
-        function r(t, n, i, r) {
-            n.open(r),
-            d(i, t),
-            e.util.updateDynamicImages(i)
-        }
-        function a(e, t, n) {
-            _('<button id="fsPagePopHideButton">Don\'t Show Again</button>').appendTo(e).click(( () => {
-                const e = t.getContentElement().find(".slick-current");
-                C.setItem(m(e.length > 0 ? e : n), new Date),
-                t.close()
+    if (n) {
+        // Remove the fetch call and its associated logic
+        // Instead, provide a dummy response or fallback logic
+        const dummyResponse = ""; // You can set this to any default value or structure you need
+
+        // Continue with the rest of the code using the dummy response
+        (function(n) {
+            function i(e, t, n, i) {
+                return e.empty().append(t),
+                n.setContent(e),
+                e.removeAttr("hidden"),
+                n.addContent(i),
+                [t, n]
             }
-            ))
-        }
-        function o(e) {
-            return y.filter(e, (e => ["", "scroll"].includes(_(e).data("delay-option"))))
-        }
-        function s(e) {
-            return y.filter(e, (e => "" === _(e).data("delay-option")))
-        }
-        function l() {
-            return [_('<div id="fsPagePopControls"></div>'), T.Dialog({
-                closeOnClick: !0,
-                dialogClass: "fsPagePopDialog",
-                id: "fsPagePop"
-            }), !1]
-        }
-        function d(e, n) {
-            if (e.length <= 1)
-                return;
-            const i = _('<span id="fsPagePopDotsContainer"></span>')
-              , r = _('<button data-role="none" id="fsPagePopNextButton" aria-label="Next" tabindex="0" role="button"><span>&#8250;</span></button>')
-              , a = _('<button data-role="none" id="fsPagePopPrevButton" aria-label="Previous" tabindex="0" role="button"><span>&#8249;</span></button>')
-              , o = e.parent();
-            _("#fsPagePopPaging").remove(),
-            _('<div id="fsPagePopPaging"></div>').append(a).append(i).append(r).prependTo(n),
-            t.setTimeout((function() {
-                o.slick({
-                    appendDots: i,
-                    dots: !0,
-                    dotsClass: "fsPagePopDots",
-                    infinite: !1,
-                    nextArrow: r,
-                    prevArrow: a
-                }).resize()
+            function r(t, n, i, r) {
+                n.open(r),
+                d(i, t),
+                e.util.updateDynamicImages(i)
             }
-            ), 60)
-        }
-        function c() {
-            return w.scrollTop() >= (E.height() - w.height()) / 2
-        }
-        function u(e, t, n, r, o) {
-            a(e, n, t),
-            [t,r] = g(t, r);
-            const s = t.parent().clone()
-              , l = t.clone();
-            [t,n] = i(s, l, n, e),
-            !S && r && (n.attachToPage(),
-            o(e, n, t))
-        }
-        function f(e) {
-            return y.filter(e, (e => "scroll" === _(e).data("delay-option")))
-        }
-        function h(e, t, n) {
-            w.on("scroll.pagepops", y.throttle(( () => {
-                c() && (w.off("scroll.pagepops"),
-                r(e, t, n, _(b.body)))
-            }
-            ), 1e3))
-        }
-        function p(e, n, i, a) {
-            t.setTimeout(( () => {
-                r(e, n, i, _(b.body))
-            }
-            ), a)
-        }
-        function g(e, t) {
-            if (e.length > 1)
-                e = e.get().sort(( (e, n) => {
-                    const i = _(e)
-                      , r = _(n)
-                      , a = C.getItem(m(i))
-                      , o = C.getItem(m(r))
-                      , s = i.data("reset-at")
-                      , l = r.data("reset-at");
-                    let d, c, u = !!a, f = !!o;
-                    return s && u && new Date(s) > new Date(a) && (u = !1),
-                    l && f && new Date(l) > new Date(o) && (f = !1),
-                    t = t || !u || !f,
-                    u == f ? (d = new Date(i.data("visible-at")),
-                    c = new Date(r.data("visible-at")),
-                    c - d) : a ? 1 : -1
+            function a(e, t, n) {
+                _('<button id="fsPagePopHideButton">Don\'t Show Again</button>').appendTo(e).click(( () => {
+                    const e = t.getContentElement().find(".slick-current");
+                    C.setItem(m(e.length > 0 ? e : n), new Date),
+                    t.close()
                 }
-                ));
-            else {
-                const n = e.first()
-                  , i = C.getItem(m(n))
-                  , r = !!i
-                  , a = n.data("reset-at");
-                t = !r || new Date(a) > new Date(i)
+                ))
             }
-            return [_(e), t]
-        }
-        function m(e) {
-            return "page_pop_" + e.data("id")
-        }
-        function v(e) {
-            return y.filter(e, (e => "time" === _(e).data("delay-option")))
-        }
-        if (!n.length)
-            return;
-        const y = e._
-          , _ = e.$
-          , b = t.document
-          , E = _(b)
-          , w = _(t)
-          , T = e.getInternalNS("dialogs")
-          , S = e.getInternalNS("elements.utils").inDraftMode()
-          , C = e.localStorage
-          , k = _(n).find(".fsPagePop");
-        let I, A, x, D, R = {};
-        R.allPagePops = k,
-        R.immediatePagePops = _(w.height() >= E.height() ? o(k) : s(k)),
-        R.scrollPagePops = _(w.height() >= E.height() ? [] : f(k)),
-        R.timePagePops = _(v(k)),
-        y.each(R, ( (e, t) => {
-            if (e.length)
-                switch (t) {
-                case "allPagePops":
-                    _(`<button id="fsPagePopNotification" aria-label="View Page Pops"><span>${e.length}</span></button>`).appendTo(b.body).click((function() {
-                        [I,A,x] = l();
-                        let t = e.parent().clone()
-                          , n = e.clone();
-                        [n,x] = g(n, x),
-                        [n,A] = i(t, n, A, I),
-                        a(I, A, n),
-                        r(I, A, n, _(this))
+            function o(e) {
+                return y.filter(e, (e => ["", "scroll"].includes(_(e).data("delay-option"))))
+            }
+            function s(e) {
+                return y.filter(e, (e => "" === _(e).data("delay-option")))
+            }
+            function l() {
+                return [_('<div id="fsPagePopControls"></div>'), T.Dialog({
+                    closeOnClick: !0,
+                    dialogClass: "fsPagePopDialog",
+                    id: "fsPagePop"
+                }), !1]
+            }
+            function d(e, n) {
+                if (e.length <= 1)
+                    return;
+                const i = _('<span id="fsPagePopDotsContainer"></span>')
+                  , r = _('<button data-role="none" id="fsPagePopNextButton" aria-label="Next" tabindex="0" role="button"><span>&#8250;</span></button>')
+                  , a = _('<button data-role="none" id="fsPagePopPrevButton" aria-label="Previous" tabindex="0" role="button"><span>&#8249;</span></button>')
+                  , o = e.parent();
+                _("#fsPagePopPaging").remove(),
+                _('<div id="fsPagePopPaging"></div>').append(a).append(i).append(r).prependTo(n),
+                t.setTimeout((function() {
+                    o.slick({
+                        appendDots: i,
+                        dots: !0,
+                        dotsClass: "fsPagePopDots",
+                        infinite: !1,
+                        nextArrow: r,
+                        prevArrow: a
+                    }).resize()
+                }
+                ), 60)
+            }
+            function c() {
+                return w.scrollTop() >= (E.height() - w.height()) / 2
+            }
+            function u(e, t, n, r, o) {
+                a(e, n, t),
+                [t,r] = g(t, r);
+                const s = t.parent().clone()
+                  , l = t.clone();
+                [t,n] = i(s, l, n, e),
+                !S && r && (n.attachToPage(),
+                o(e, n, t))
+            }
+            function f(e) {
+                return y.filter(e, (e => "scroll" === _(e).data("delay-option")))
+            }
+            function h(e, t, n) {
+                w.on("scroll.pagepops", y.throttle(( () => {
+                    c() && (w.off("scroll.pagepops"),
+                    r(e, t, n, _(b.body)))
+                }
+                ), 1e3))
+            }
+            function p(e, n, i, a) {
+                t.setTimeout(( () => {
+                    r(e, n, i, _(b.body))
+                }
+                ), a)
+            }
+            function g(e, t) {
+                if (e.length > 1)
+                    e = e.get().sort(( (e, n) => {
+                        const i = _(e)
+                          , r = _(n)
+                          , a = C.getItem(m(i))
+                          , o = C.getItem(m(r))
+                          , s = i.data("reset-at")
+                          , l = r.data("reset-at");
+                        let d, c, u = !!a, f = !!o;
+                        return s && u && new Date(s) > new Date(a) && (u = !1),
+                        l && f && new Date(l) > new Date(o) && (f = !1),
+                        t = t || !u || !f,
+                        u == f ? (d = new Date(i.data("visible-at")),
+                        c = new Date(r.data("visible-at")),
+                        c - d) : a ? 1 : -1
                     }
                     ));
-                    break;
-                case "immediatePagePops":
-                    [I,A,x] = l(),
-                    u(I, e, A, x, ( (e, t, n) => {
-                        r(e, t, n, _(b.body))
-                    }
-                    ));
-                    break;
-                case "scrollPagePops":
-                    [I,A,x] = l(),
-                    u(I, e, A, x, ( (e, t, n) => {
-                        h(e, t, n)
-                    }
-                    ));
-                    break;
-                case "timePagePops":
-                    D = y.groupBy(e, (e => _(e).data("delay-time"))),
-                    y.each(D, ( (e, t) => {
+                else {
+                    const n = e.first()
+                      , i = C.getItem(m(n))
+                      , r = !!i
+                      , a = n.data("reset-at");
+                    t = !r || new Date(a) > new Date(i)
+                }
+                return [_(e), t]
+            }
+            function m(e) {
+                return "page_pop_" + e.data("id")
+            }
+            function v(e) {
+                return y.filter(e, (e => "time" === _(e).data("delay-option")))
+            }
+            if (!n.length)
+                return;
+            const y = e._
+              , _ = e.$
+              , b = t.document
+              , E = _(b)
+              , w = _(t)
+              , T = e.getInternalNS("dialogs")
+              , S = e.getInternalNS("elements.utils").inDraftMode()
+              , C = e.localStorage
+              , k = _(n).find(".fsPagePop");
+            let I, A, x, D, R = {};
+            R.allPagePops = k,
+            R.immediatePagePops = _(w.height() >= E.height() ? o(k) : s(k)),
+            R.scrollPagePops = _(w.height() >= E.height() ? [] : f(k)),
+            R.timePagePops = _(v(k)),
+            y.each(R, ( (e, t) => {
+                if (e.length)
+                    switch (t) {
+                    case "allPagePops":
+                        _(`<button id="fsPagePopNotification" aria-label="View Page Pops"><span>${e.length}</span></button>`).appendTo(b.body).click((function() {
+                            [I,A,x] = l();
+                            let t = e.parent().clone()
+                              , n = e.clone();
+                            [n,x] = g(n, x),
+                            [n,A] = i(t, n, A, I),
+                            a(I, A, n),
+                            r(I, A, n, _(this))
+                        }
+                        ));
+                        break;
+                    case "immediatePagePops":
                         [I,A,x] = l(),
-                        u(I, _(e), A, x, ( (e, n, i) => {
-                            p(e, n, i, 1e3 * parseInt(t))
+                        u(I, e, A, x, ( (e, t, n) => {
+                            r(e, t, n, _(b.body))
+                        }
+                        ));
+                        break;
+                    case "scrollPagePops":
+                        [I,A,x] = l(),
+                        u(I, e, A, x, ( (e, t, n) => {
+                            h(e, t, n)
+                        }
+                        ));
+                        break;
+                    case "timePagePops":
+                        D = y.groupBy(e, (e => _(e).data("delay-time"))),
+                        y.each(D, ( (e, t) => {
+                            [I,A,x] = l(),
+                            u(I, _(e), A, x, ( (e, n, i) => {
+                                p(e, n, i, 1e3 * parseInt(t))
+                            }
+                            ))
                         }
                         ))
                     }
-                    ))
-                }
-        }
-        ))
+            }
+            ))
+        })(dummyResponse);
     }
-    ))
 }
 )(FS, window),
 function(e) {

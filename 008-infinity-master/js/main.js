@@ -301,15 +301,9 @@
 	(function ssInit() {
 
 		ssPreloader();
-		ssMasonryFolio();
-		ssLightGallery();
-		ssFlexSlider();
-		ssOwlCarousel();
 		ssMenuOnScrolldown();
 		ssOffCanvas();
 		ssSmoothScroll();
-		ssPlaceholder();
-		ssAlertBoxes();
 		ssAnimations();
 		ssIntroAnimation();		
 		ssContactForm();
