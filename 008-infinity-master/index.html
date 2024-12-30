@@ -151,7 +151,10 @@
         }
     }
 
-    animateIntroText();
+    // Start with words animation first
+    words.forEach(word => word.classList.remove('hidden'));
+    animateWords();
+
 });
 
 					  </script>
@@ -159,14 +162,6 @@
 		   	</div> <!-- end row --> 
 		   </div> <!-- end home-content-tablecell --> 		   
 		</div> <!-- end home-content-table -->
-
-		
-		<!-- <div class="scrolldown">
-			<a href="#about" class="scroll-icon smoothscroll">		
-		   	Scroll Down		   	
-		   	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-			</a>
-		</div>			 -->
    
    </section> <!-- end home -->
 
