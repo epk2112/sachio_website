@@ -42,93 +42,6 @@
 	}; 
 
 
-	/* FitVids
-	------------------------------------------------------ */ 
-	var ssFitVids = function() {
-		$(".fluid-video-wrapper").fitVids();
-	}; 
-
-
-	/*	Masonry
-	------------------------------------------------------ */
-	var ssMasonryFolio = function() {
-
-		var containerBricks = $('.bricks-wrapper');
-
-		containerBricks.imagesLoaded( function() {
-			containerBricks.masonry( {	
-			  	itemSelector: '.brick',
-			  	resize: true
-			});
-		});
-	};
-
-
-	/*	Light Gallery
-	------------------------------------------------------- */
-	var ssLightGallery = function() {
-
-		$('#folio-wrap').lightGallery({  
-			showThumbByDefault: false,
-			hash: false,
-			selector: ".item-wrap"		
-		});
-	};
-
-
-	/* Flexslider
-  	* ------------------------------------------------------ */
-  	var ssFlexSlider = function() {
-
-  		$WIN.on('load', function() {
-
-		   $('#testimonial-slider').flexslider({
-		   	namespace: "flex-",
-		      controlsContainer: "",
-		      animation: 'slide',
-		      controlNav: true,
-		      directionNav: false,
-		      smoothHeight: true,
-		      slideshowSpeed: 7000,
-		      animationSpeed: 600,
-		      randomize: false,
-		      touch: true,
-		   });
-
-	   });
-
-  	};
-
-
-  	/* Carousel
-	* ------------------------------------------------------ */
-	var ssOwlCarousel = function() {
-
-		$(".owl-carousel").owlCarousel({		
-	      nav: false,
-			loop: true,
-	    	margin: 50,
-	    	responsiveClass:true,
-	    	responsive: {
-	         0:{
-	            items:2,
-	            margin: 20
-	         },
-	         400:{
-	            items:3,
-	            margin: 30
-	         },
-	         600:{
-	            items:4,
-	            margin: 40
-	         },
-	         1000:{
-	            items:6            
-	         }
-	    	}
-		});
-
-	};
   	
 
 
@@ -212,23 +125,7 @@
 	};
 
 
-  /* Placeholder Plugin Settings
-	* ------------------------------------------------------ */
-	var ssPlaceholder = function() {
-		$('input, textarea, select').placeholder();  
-	};
 
-
-  	/* Alert Boxes
-  	------------------------------------------------------- */
-  	var ssAlertBoxes = function() {
-
-  		$('.alert-box').on('click', '.close', function() {
-		  $(this).parent().fadeOut(500);
-		}); 
-
-  	};	  	
-	
 
   /* Animations
 	* ------------------------------------------------------- */
@@ -404,7 +301,6 @@
 	(function ssInit() {
 
 		ssPreloader();
-		ssFitVids();
 		ssMasonryFolio();
 		ssLightGallery();
 		ssFlexSlider();

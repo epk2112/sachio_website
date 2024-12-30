@@ -3135,3 +3135,221 @@
    opacity: 1;
    transform: translateX(0);
  }
+
+ /* Add this to your existing CSS  */
+
+.sticky-header {
+    padding: 15px 40px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: -100px;
+    left: 0;
+    right: 0;
+    z-index: 1001; /* Increased z-index */
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.sticky-header.visible {
+    top: 0;
+    opacity: 0.95;
+}
+
+/* Menu trigger styles */
+.header-menu-trigger {
+    display: block;
+    position: relative;
+    right: 0;
+    top: 0;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease-in-out;
+    z-index: 1002; /* Even higher z-index for the trigger */
+}
+
+.header-menu-trigger.is-clicked {
+    color: #FFFFFF;
+}
+
+.header-menu-trigger .header-menu-icon {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+}
+
+.header-menu-trigger .header-menu-icon::before,
+.header-menu-trigger .header-menu-icon::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-menu-trigger .header-menu-icon::before {
+    top: -8px;
+}
+
+.header-menu-trigger .header-menu-icon::after {
+    bottom: -8px;
+}
+
+.header-menu-trigger.is-clicked .header-menu-icon {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.header-menu-trigger.is-clicked .header-menu-icon::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.header-menu-trigger.is-clicked .header-menu-icon::after {
+    bottom: 0;
+    transform: rotate(-45deg);
+}
+
+/* Menu nav wrap styles */
+.menu-nav-wrap {
+    background: #0C0C0C;
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 3.6rem 3rem;
+    height: 100vh;
+    width: 280px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: all 0.4s ease-in-out;
+}
+
+.menu-is-open .menu-nav-wrap {
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu-nav-wrap .nav-list {
+    font-family: "montserrat-regular", sans-serif;
+    margin: 3.6rem 0 1.5rem 0;
+    padding: 0 0 1.8rem 0;
+    list-style: none;
+}
+
+.menu-nav-wrap .nav-list li {
+    padding-left: 0;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.03);
+    line-height: 4.2rem;
+}
+
+.menu-nav-wrap .nav-list li a {
+    color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-nav-wrap .nav-list li a:hover,
+.menu-nav-wrap .nav-list li a:focus {
+    color: #FFFFFF;
+}
+
+.menu-nav-wrap .header-social-list {
+    list-style: none;
+    margin: 2rem 0 0 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu-nav-wrap .header-social-list li a {
+    color: rgba(255, 255, 255, 0.15);
+    text-decoration: none;
+    font-size: 1.8rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-nav-wrap .header-social-list li a:hover {
+    color: #FFFFFF;
+}
+
+.close-button {
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 36px;
+    right: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.close-button span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: transparent;
+    position: relative;
+}
+
+.close-button span::before,
+.close-button span::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.close-button span::before {
+    transform: rotate(45deg);
+}
+
+.close-button span::after {
+    transform: rotate(-45deg);
+}
+
+/* Logo styles */
+.sticky-header .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sticky-header .logo-img {
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    .sticky-header {
+        padding: 15px 20px;
+    }
+    
+    .menu-nav-wrap {
+        width: 240px;
+    }
+}
