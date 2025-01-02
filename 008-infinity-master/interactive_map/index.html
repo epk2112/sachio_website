@@ -57,8 +57,17 @@
     }
     .tot {
       margin: 0;
-      font-size: 18px;
+      font-size: 30px;
       color: #fc8f2e;
+    }
+
+    .logo {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      z-index: 1000;
+      width: 100px; /* Adjust the size as needed */
+      height: auto;
     }
   </style>
 </head>
@@ -110,6 +119,7 @@
       
     </div>
   </div>
+  <img class="logo" src="assets/images/logo.png" alt="Logo">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="map.js"></script>
 </body>
