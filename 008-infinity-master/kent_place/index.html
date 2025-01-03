@@ -1646,23 +1646,6 @@
 
 <script src="assets/main_v2.js"></script>
     <script src="uploaded_themes_default22/main.js"></script>
-    <script>
-        function sendHeightToParent() {
-           const height = Math.max(
-              document.body.scrollHeight,
-              document.body.offsetHeight,
-              document.documentElement.clientHeight,
-              document.documentElement.scrollHeight,
-              document.documentElement.offsetHeight
-           );
-     
-           // Send the height to the parent page
-           window.parent.postMessage({ type: 'iframeHeight', height: height }, '*');
-        }
-     
-        // Send the height when the page loads and when it resizes
-        window.addEventListener('load', sendHeightToParent);
-        window.addEventListener('resize', sendHeightToParent);
-     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.min.js"></script>
 </body>
 </html>
