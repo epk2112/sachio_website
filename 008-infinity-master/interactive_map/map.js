@@ -16,10 +16,10 @@ fetch('tanzania-regions-districts.geojson') // Replace with the path to your Geo
     // Add GeoJSON layer to the map
     L.geoJSON(data, {
       style: {
-        color: '#333',
-        weight: 1,
-        fillColor: '#ff7800',
-        fillOpacity: 0.5
+        color: '#333', // Border color
+        weight: 1, // Border width
+        fillColor: '#ff7800', // Fill color (optional, since fillOpacity is 0)
+        fillOpacity: 0 // Set fill opacity to 0 to make it transparent
       },
       onEachFeature: function (feature, layer) {
         // Add popup with region/district name
