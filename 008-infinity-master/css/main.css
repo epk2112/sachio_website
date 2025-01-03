@@ -3353,3 +3353,11 @@
         width: 240px;
     }
 }
+
+
+@font-face {
+  font-family: 'HandSean';
+  src: url('../fonts/handsean.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
