@@ -1,6 +1,9 @@
 // Initialize the map
 const map = L.map('map').setView([-6.3690, 34.8888], 6); // Centered on Tanzania
 
+// Move the zoom control to the top-right
+map.zoomControl.setPosition('topright');
+
 // Add a base tile layer (you can use OpenStreetMap or other tile providers)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap contributors'
