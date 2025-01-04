@@ -772,7 +772,7 @@ p:last-child .fs_style_33.fs_style_38:last-child {
     margin: 0 0 10px;
     padding: 14px 29px;
     background: #d2a03b;
-    color: #001346;
+    color: #463a00;
     cursor: pointer;
     text-align: center;
     border-radius: 0;
@@ -1114,7 +1114,7 @@ p:last-child .fsStyleDefaultButton:last-child {
 }
 
 .fsStateSelected .juicer-feed .j-paginate,.juicer-feed .j-paginate.on,.juicer-feed .j-paginate:focus,.juicer-feed .j-paginate:hover {
-    background: #001346;
+    background: #463a00;
     color: #fff;
     border-color: #001346!important;
     transition: all .3s
@@ -7473,19 +7473,19 @@ p:last-child .Youtube_view_link a:last-child {
     width: 100%;
     height: calc(100% - 180px);
     z-index: -1;
-    background-image: linear-gradient(90deg,#001346 0,#001346 calc(100% - 42px),#d2a03b calc(100% - 42px),#d2a03b)
+    background-color: #7c6808
 }
 
 @media (min-width: 600px) {
     .home .voices:before {
-        background-image:linear-gradient(90deg,#001346 0,#001346 calc(100% - 120px),#d2a03b calc(100% - 120px),#d2a03b);
+        background-color: #7c6808;
         height: calc(100% - 220px)
     }
 }
 
 @media (min-width: 1000px) {
     .home .voices:before {
-        background-image:linear-gradient(90deg,#001346 0,#001346 calc(100% - 269px),#d2a03b calc(100% - 269px),#d2a03b);
+        background-color: #7c6808;
         height: calc(100% - 56px)
     }
 }
@@ -12320,3 +12320,5 @@ body:not(.fsComposeMode) .bpa-college-slider-2>.fsElementContent>.fsListItems .f
     color: #f7931e;
     text-decoration: none;
 }
+
+
