@@ -220,9 +220,14 @@
 
 			
 			<iframe src="interactive_map/index.html" width="100%" height="500px" frameborder="0"></iframe>
+			
 		</div>
 	</div>
 </section>
+<iframe id="kent-slider-iframe" src="./kent_slider/index.html"
+			style="width: 100%; border: none; overflow: hidden;" title="Kent Slider Content" scrolling="no"
+			loading="lazy">
+		</iframe>
 
 
 
@@ -294,10 +299,17 @@
 			document.body.classList.remove('menu-is-open');
 		}
 	});
+
+
+	// Javascript for iframes
 	window.addEventListener('load', () => {
-    const iframe = document.getElementById('kent-place-iframe');
-    if (iframe) {
-        iFrameResize({}, iframe);
+    const iframeKentPlace = document.getElementById('kent-place-iframe');
+    const iframeKentSlider = document.getElementById('kent-slider-iframe');
+    if (iframeKentPlace) {
+        iFrameResize({}, iframeKentPlace);
+    }
+    if (iframeKentSlider) {
+        iFrameResize({}, iframeKentSlider);
     }
 });
 	</script>
