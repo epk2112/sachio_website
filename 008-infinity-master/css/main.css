@@ -3361,3 +3361,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+/* Disable zooming on mobile devices */
+@media only screen and (max-width: 767px) {
+  .interactive-map {
+      pointer-events: none; /* Disable all interactions */
+      touch-action: none;   /* Disable touch gestures like pinch-to-zoom */
+  }
+}

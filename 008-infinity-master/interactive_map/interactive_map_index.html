@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanzania Interactive Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+
+    .map-console {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+      background: rgba(39, 38, 38, 0.5); /* White background with 80% opacity */
+      padding: 18px;
+      border-radius: 13px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700; /* Bold */
+      transform: scale(0.6); /* Scale down to 80% of the original size */
+      transform-origin: top left;
+    }
+
+    .searchtab {
+      margin-bottom: 10px;
+    }
+    .selectpicker {
+      width: 100%;
+      padding: 5px;
+      border-radius: 9px;
+      border: 1px solid #ccc;
+    }
+    .totBoxG {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .totBox {
+      background: #f9f9f9;
+      padding: 10px;
+      border-radius: 3px;
+      border: 1px solid #ddd;
+    }
+    .totText {
+      margin: 0;
+      font-size: 14px;
+      color: #ffffff;
+    }
+    .tot {
+      margin: 0;
+      font-size: 30px;
+      color: #fc8f2e;
+    }
+
+    .logo {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      z-index: 1000;
+      width: 83px; /* Adjust the size as needed */
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="map-console" class="map-console">
+    <div class="searchtab" id="searchtab0">
+      <select id="mySelect0" class="selectpicker">
+        <option value="0">TYPE OF IMPLEMENTATION - ALL</option>
+        <option value="1">Sole Implementation</option>
+        <option value="2">Partnership</option>
+        <option value="3">Consortium</option>
+        <option value="4">Coalition</option>
+        <option value="5">Alliance</option>
+      </select>
+    </div>
+    <div class="searchtab" id="searchtab1">
+      <select id="mySelect1" class="selectpicker">
+        <option value="0">REGION - ALL</option>
+        <option value="1">Arusha</option>
+        <option value="2">Dar es Salaam</option>
+        <option value="3">Dodoma</option>
+        <option value="4">Mwanza</option>
+      </select>
+    </div>
+    <div class="searchtab" id="searchtab2">
+      <select id="mySelect2" class="selectpicker">
+        <option value="0">PROJECT STATUS - ALL</option>
+        <option value="1">Active</option>
+        <option value="2">Finished</option>
+      </select>
+    </div>
+    <div class="searchtab" id="searchtab3">
+      <select id="mySelect3" class="selectpicker">
+        <option value="0">PROJECT FOCUS - ALL</option>
+        <option value="1">Networks and Systems</option>
+        <option value="2">Research and Data</option>
+        <option value="3">Technology Tools</option>
+      </select>
+    </div>
+    <div class="totBoxG">
+     
+        <h1 class="totText">Number of Projects</h1>
+        <h1 class="tot" id="tot1">12</h1>
+      
+      
+        <h1 class="totText">People Reached</h1>
+        <h1 class="tot" id="tot2">32,050</h1>
+      
+    </div>
+  </div>
+  <img class="logo" src="assets/images/logo.png" alt="Logo">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="map.js"></script>
+</body>
+</html>
