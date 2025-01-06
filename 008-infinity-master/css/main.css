@@ -3370,3 +3370,31 @@
       touch-action: none;   /* Disable touch gestures like pinch-to-zoom */
   }
 }
+
+
+@media (min-width: 768px) {
+  .desktop-only {
+      position: relative;
+      top: -50px;
+  }
+}
+
+
+/* Default styles for mobile */
+.desktop-text {
+  font-family: 'HandSean', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem; /* Default font size for mobile */
+  color: #d2a03b;
+}
+
+/* Apply styles only on screens wider than 768px (desktop) */
+@media (min-width: 768px) {
+  .desktop-only {
+      position: relative;
+      top: -50px;
+  }
+  .desktop-text {
+      font-size: 5rem; /* Increased font size for desktop */
+  }
+}
