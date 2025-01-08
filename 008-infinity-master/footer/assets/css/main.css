@@ -383,9 +383,9 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", "Open Sans", sans-serif; /* Add Montserrat as the primary font */
     color: #828282;
     background-color: #eee;
 }
@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     line-height: 1.4;
     color: #444;
-    font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", "Oswald", sans-serif; /* Add Montserrat as the primary font */
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2488,7 +2488,7 @@ mark, .mark {
 
 .widget-contact__item {
     position: relative;
-    font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #666;
     transition: all .4s ease;
 }
@@ -2508,7 +2508,7 @@ mark, .mark {
 
 .widget-file a {
     display: block;
-    font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     color: #666;
     border: 1px solid #eee;
@@ -2603,7 +2603,7 @@ mark, .mark {
 }
 
 .widget-info__text {
-    font-family: "Playfair Display", serif;
+    font-family: "Montserrat", sans-serif;
     font-style: italic;
     text-transform: capitalize;
 }
@@ -2872,7 +2872,7 @@ mark, .mark {
 .widget-tag a {
     display: block;
     float: left;
-    font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 12px;
     text-align: center;
     color: #666;
@@ -3644,7 +3644,7 @@ mark, .mark {
 }
 
 .font-secondary {
-    font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", "Oswald", sans-serif; /* Add Montserrat as the primary font */
 }
 
 .font-tertiary {
