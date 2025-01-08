@@ -3385,7 +3385,7 @@
   font-family: 'HandSean', sans-serif;
   font-weight: bold;
   font-size: 3.5rem; /* Default font size for mobile */
-  color: #d2a03b;
+  color: #f7931e;
 }
 
 /* Apply styles only on screens wider than 768px (desktop) */
@@ -3396,5 +3396,17 @@
   }
   .desktop-text {
       font-size: 5rem; /* Increased font size for desktop */
+  }
+}
+
+/* Default height for mobile screens */
+.interactive-map {
+  height: 290px;
+}
+
+/* Height for desktop screens */
+@media (min-width: 768px) {
+  .interactive-map {
+      height: 400px;
   }
 }
