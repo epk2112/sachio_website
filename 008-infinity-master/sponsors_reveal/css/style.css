@@ -10,7 +10,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif; /* Changed to Montserrat */
 }
 
 a {
@@ -30,7 +30,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif; /* Already Montserrat, but ensure it's consistent */
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -516,15 +516,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header {
   margin-bottom: 30px;
+  text-align: center; /* Center-align the text */
 }
 
 .section-header h2 {
   font-size: 32px;
-  color: #0c2e8a;
+  color: #f7931e;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
   padding-bottom: 20px;
+}
+
+/* Media query for desktop screens */
+@media (min-width: 768px) {
+  .section-header h2 {
+    font-size: 52px; /* Font size for desktop */
+  }
 }
 
 .section-header h2::before {
@@ -533,14 +541,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #50d8af;
+  background: #f7931e;
   bottom: 0;
-  left: 0;
+  left: 50%; /* Center the underline */
+  transform: translateX(-50%); /* Center the underline */
 }
 
 .section-header p {
   padding: 0;
-  margin: 0;
+  margin: 0 auto; /* Center the paragraph */
+  max-width: 800px; /* Optional: Set a max-width for better readability */
 }
 
 /* About Section
@@ -712,7 +722,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-  background-color: #50d8af;
+  background-color: #f7931e;
 }
 
 /* Our Portfolio Section
