@@ -218,6 +218,9 @@
 <iframe id="kent-slider-iframe" src="./kent_slider/index.html" style="width: 100%; border: none; overflow: hidden;"
 	title="Kent Slider Content" scrolling="no" loading="lazy">
 </iframe>
+<iframe id="our-partners-iframe" src="./sponsors_reveal/index.html" style="width: 100%; border: none; overflow: hidden;"
+	title="Our Partners Content" scrolling="no" loading="lazy">
+</iframe>
 
 <iframe id="footer-iframe" src="./footer/index.html" style="width: 100%; border: none; overflow: hidden;"
 	title="Footer Content" scrolling="no" loading="lazy">
@@ -300,6 +303,7 @@
     const iframeKentPlace = document.getElementById('kent-place-iframe');
     const iframeKentSlider = document.getElementById('kent-slider-iframe');
 	const iframeFooter = document.getElementById('footer-iframe');
+	const iframeOurPartners = document.getElementById('our-partners-iframe');
     if (iframeKentPlace) {
         iFrameResize({}, iframeKentPlace);
     }
@@ -308,6 +312,9 @@
     }
 	if (iframeFooter) {
 		iFrameResize({}, iframeFooter);
+	}
+	if (iframeOurPartners) {
+		iFrameResize({}, iframeOurPartners);
 	}
 });
 	</script>
