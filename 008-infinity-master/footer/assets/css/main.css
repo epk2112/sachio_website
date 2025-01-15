@@ -4017,3 +4017,43 @@ ol, ul {
     background-color: #fff;
 }
 
+
+.widget-contact__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.widget-contact__title {
+    font-size: 13px;
+}
+
+.widget-contact__social {
+    display: flex;
+    gap: 15px;
+}
+
+.widget-contact__social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+.widget-contact__social a:hover {
+    background-color: #f37318;
+    color: #333;
+}
+
+/* Dark background for demo purposes */
+body {
+    background-color: #333;
+    padding: 20px;
+}
