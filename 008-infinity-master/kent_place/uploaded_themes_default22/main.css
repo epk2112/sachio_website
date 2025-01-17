@@ -2405,9 +2405,12 @@ body.mobile-news-open #fsMenu .news-and-events-mobile>.fsElementContent {
     pointer-events: none
 }
 
+
+/* blue html background */
+
 html {
     font-family: Libre Franklin,sans-serif;
-    background: #001346;
+    background: #ffffff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
@@ -7438,21 +7441,21 @@ p:last-child .Youtube_view_link a:last-child {
     position: relative;
     color: #fff;
     padding: 35px 0 78px 35px;
-    margin-bottom: 26px;
+    margin-bottom: 0px;
     z-index: 0
 }
 
 @media (min-width: 600px) {
     .home .voices {
         padding:75px 0 100px 35px;
-        margin-bottom: 50px
+        margin-bottom: 0px
     }
 }
 
 @media (min-width: 1000px) {
     .home .voices {
         padding:167px 0 0 35px;
-        margin-bottom: 113px
+        margin-bottom: 0px
     }
 }
 
@@ -7722,23 +7725,6 @@ html.no-touchevents .home .voices .fsContent .slideshow-navigation {
     to {
         transform: rotate(-45deg)
     }
-}
-
-.home .voices .fsPostElement:after {
-    content: "\E918";
-    font-family: 'Montserrat', sans-serif;
-    font-smoothing: antialiased;
-    font-weight: 400;
-    speak: none;
-    color: #001346;
-    position: absolute;
-    bottom: -55px;
-    left: calc(50% - 35px);
-    transform: rotate(-45deg);
-    font-size: 2.8125rem;
-    line-height: 1;
-    -webkit-animation: swipeAnimation 3.5s cubic-bezier(.3,.38,.58,1.45) infinite;
-    animation: swipeAnimation 3.5s cubic-bezier(.3,.38,.58,1.45) infinite
 }
 
 @media (min-width: 1000px) {
@@ -10984,12 +10970,6 @@ body.fsComposeMode .styled-tabs.fsTabs .fsTabsNav li {
     speak: none
 }
 
-.stat.fsContent.icon-football:before {
-    content: "\E918";
-    font-family: bpa-font-icons;
-    font-weight: 400;
-    speak: none
-}
 
 .stat.fsContent.icon-gift:before {
     content: "\E919";

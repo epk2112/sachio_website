@@ -4039,9 +4039,9 @@ ol, ul {
     justify-content: center;
     width: 25px;
     height: 25px;
-    border: 2px solid #fff;
+    border: 2px solid #63615e;
     border-radius: 50%;
-    color: #fff;
+    color: #63615e;
     text-decoration: none;
     transition: all 0.3s ease;
     background-color: transparent;
@@ -4055,5 +4055,4 @@ ol, ul {
 /* Dark background for demo purposes */
 body {
     background-color: #333;
-    padding: 20px;
 }

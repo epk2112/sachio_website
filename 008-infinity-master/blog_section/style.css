@@ -2054,3 +2054,14 @@ Version:	1.1
 /*=======================
   End Footer  CSS
 =========================*/ 
+
+
+.h2, h2 {
+	font-size: 52px;
+}
+
+@media only screen and (max-width: 600px) {
+    .h2, h2 {
+        font-size: 30px;
+    }
+}
